@@ -1,0 +1,21 @@
+---
+title: "Troubleshoot by symptom"
+description: "For your second read — look things up by what you are seeing on screen, and know right away which layer is broken and which page to open."
+---
+
+The first time, you read the documentation in order. From the second time on, you look things up by what you are seeing on screen. This table is for that second time.
+
+| Symptom                                      | Layer        | Where to look / what to do                                                                                                                                                                                                                                                                                    |
+| -------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Scan** finds no phones                     | 1 · DEVICE   | _User Manual (HDSD) p. 4–8_ — check the two address ranges and the **Active** button ([A4 · step 3](/en/a2-lo-trinh-mot-tuan/a4-ngay-1-phan-cung))                                                                                                                                                                |
+| Phones are found but the screen is black     | 1 · DEVICE   | Coming soon — [contact support](/en/lien-he-ho-tro) with a screenshot                                                                                                                                                                                                                                             |
+| Phones show up but cannot get online         | 2 · NETWORK  | Check the proxy first; if the proxy is fine, check the time on the phone ([A4 · step 3](/en/a2-lo-trinh-mot-tuan/a4-ngay-1-phan-cung)). Still not working: check Isolate Mode on the GenRouter ([A5 · step 2](/en/a2-lo-trinh-mot-tuan/a5-ngay-2-danh-tinh)) · [proxy assignment video](https://youtu.be/kGjP-7iqSTI) |
+| Many accounts get banned at the same time    | 2 · NETWORK  | Almost always because several accounts share one address — see [A5](/en/a2-lo-trinh-mot-tuan/a5-ngay-2-danh-tinh). Watch the [video on assigning proxies and Isolate Mode](https://youtu.be/kGjP-7iqSTI); a detailed troubleshooting guide is coming soon                                                         |
+| Logged in, then asked for verification       | 3 · IDENTITY | Go back to [Day 2 on page A5](/en/a2-lo-trinh-mot-tuan/a5-ngay-2-danh-tinh) — do not scale up; change your account supplier or proxies, then try again. A detailed guide is coming soon                                                                                                                           |
+| Accounts are alive but nobody sees the posts | 3 · IDENTITY | Usually because warming up has not reached 2–4 weeks, or the wrong niche was chosen — see [A7](/en/a2-lo-trinh-mot-tuan/a7-ngay-4-5-nen-tang)                                                                                                                                                                     |
+| Everything runs but the numbers do not move  | 4 · SCRIPTS  | [Platform chapter](/en/a2-lo-trinh-mot-tuan/a7-ngay-4-5-nen-tang) — configuration section                                                                                                                                                                                                                         |
+| A different app shows up after installing    | 4 · SCRIPTS  | You are downloading from the links in the HDSD. Use the official APK folder in [A5 · step 3](/en/a2-lo-trinh-mot-tuan/a5-ngay-2-danh-tinh)                                                                                                                                                                        |
+
+:::note
+Not sure which layer? Reread [A1 · The four layers of the system](/en/a1-bon-lop-he-thong). When you need help, use the ready-made message template in [Before you contact support](/en/lien-he-ho-tro).
+:::

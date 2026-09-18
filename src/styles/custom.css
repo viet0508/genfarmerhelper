@@ -1,0 +1,60 @@
+/* GenFarmer brand theme for Starlight
+   Colors + font from genfarmer.com: Inter, #1138EE (light) / #557DFF (dark). */
+
+:root {
+  --sl-font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+  /* Accent (brand blue) — light theme */
+  --sl-color-accent-low: #d5deff;
+  --sl-color-accent: #1138ee;
+  --sl-color-accent-high: #0b1f7a;
+
+  /* Slightly softer page background, closer to the mockup */
+  --sl-color-bg: #ffffff;
+  --sl-color-bg-nav: #ffffff;
+}
+
+:root[data-theme='dark'] {
+  --sl-color-accent-low: #17235f;
+  --sl-color-accent: #557dff;
+  --sl-color-accent-high: #cdd8ff;
+}
+
+/* Home hero / inline buttons (from the GitBook <p class="button …"> markup) */
+.button {
+  display: inline-block;
+  padding: 0.55rem 1.1rem;
+  margin: 0.2rem 0.3rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  line-height: 1.2;
+}
+.button.primary {
+  background: var(--sl-color-accent);
+  color: #fff !important;
+}
+.button.primary:hover { background: var(--sl-color-accent-high); }
+.button.secondary {
+  background: var(--sl-color-accent-low);
+  color: var(--sl-color-accent-high) !important;
+}
+:root[data-theme='dark'] .button.secondary {
+  background: var(--sl-color-accent-low);
+  color: #fff !important;
+}
+
+/* Figures / screenshots: rounded, framed, centered */
+.sl-markdown-content img {
+  border-radius: 10px;
+}
+.sl-markdown-content figure { margin-inline: 0; }
+.sl-markdown-content figcaption {
+  font-size: var(--sl-text-sm);
+  color: var(--sl-color-gray-3);
+  text-align: center;
+  margin-top: 0.4rem;
+}
+
+/* Card-like spacing for the "#### [Title](link)" nav blocks on the home page */
+.sl-markdown-content h4 { margin-top: 1.4rem; }

@@ -1,0 +1,86 @@
+---
+title: "Bắt đầu · Onboarding khách hàng"
+description: "Trang đầu tiên cho khách mới nhận GenFarmer BoxPhone. Checklist 5 phút để biết mình đang ở đâu, đọc gì tiếp theo và liên hệ ai khi cần."
+---
+
+Chào mừng bạn đến với **GenFarmer**! Trang này dành cho khách mới nhận hàng — chỉ cần **5 phút** để định vị đúng chỗ và biết rõ 5 ngày kế tiếp bạn sẽ làm gì.
+
+<p align="center">
+  <a href="/vi/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi" class="button primary">Bắt đầu Ngày 0 →</a>
+  <a href="https://youtu.be/dWUFV9oCnL0" class="button secondary">Xem video hướng dẫn</a>
+</p>
+
+## Bạn đang ở đâu trong hành trình?
+
+Chọn tình huống gần nhất — mỗi mục dẫn đến bước phù hợp:
+
+#### [Tôi mới đặt hàng, chưa nhận box](/vi/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi)
+
+Đọc **Ngày 0 — Chuẩn bị**. Có 7 mục cần lo trước khi hàng về: chỗ đặt, điện, mạng, máy tính điều khiển, 5 tài khoản + 5 proxy thử, API key vilao.ai và một chiếc điện thoại quay video mở hộp.
+
+#### [Box vừa về, chưa cắm điện](/vi/a2-lo-trinh-mot-tuan/a4-ngay-1-phan-cung)
+
+Nhớ **quay video mở hộp** trước khi bóc tem — đây là bằng chứng bảo hành. Sau đó vào **Ngày 1 — Phần cứng** để làm chủ 20 điện thoại.
+
+#### [Đã điều khiển được máy, chưa biết nuôi tài khoản](/vi/a2-lo-trinh-mot-tuan/a5-ngay-2-danh-tinh)
+
+Sang **Ngày 2 — Danh tính**: proxy, tài khoản, GenFarmer Trust. Đây là lớp quan trọng nhất để tài khoản không chết trong 24 giờ đầu.
+
+#### [Muốn hệ thống tự chạy khi tôi đi ngủ](/vi/a2-lo-trinh-mot-tuan/a6-ngay-3-tu-dong)
+
+Đọc **Ngày 3 — Tự động**: tải kịch bản từ Mini-App Store, cấu hình Schedule, kiểm tra sáng hôm sau.
+
+#### [Đang thấy lỗi trên màn hình](/vi/tra-cuu-theo-trieu-chung)
+
+Tra thẳng theo triệu chứng — 90% các lỗi thường gặp có sẵn cách xử lý. Vẫn không được thì [liên hệ hỗ trợ](/vi/lien-he-ho-tro) theo mẫu có sẵn.
+
+## Checklist 5 phút cho khách mới
+
+Bấm mở từng mục theo thứ tự. Xong mục nào tick mục đó — coi như bạn đã "đăng ký" xong.
+
+* [ ] **1. Lưu số WhatsApp hỗ trợ** — [+84 79 243 2905](https://wa.me/84792432905). Sao chép sẵn [mẫu tin nhắn hỗ trợ](/vi/lien-he-ho-tro#mẫu-tin-nhắn--copy-điền-gửi) để dùng khi cần.
+* [ ] **2. Vào nhóm khách hàng WhatsApp** — [tham gia tại đây](https://chat.whatsapp.com/J8bchy0IIwREeAI1z7Jmvo?mode=gi_t). Hỏi đáp nhanh, học kinh nghiệm từ người dùng khác.
+* [ ] **3. Bookmark trang này** — để lần sau mở lại tra cứu nhanh.
+* [ ] **4. Xem [video hướng dẫn](https://youtu.be/dWUFV9oCnL0) một lượt** — 15 phút, giúp bạn hình dung tổng thể trước khi làm.
+* [ ] **5. Đọc [A1 · Bốn lớp hệ thống](/vi/a1-bon-lop-he-thong)** — 3 phút. Khi có sự cố, việc đầu tiên là biết hỏng ở lớp nào.
+* [ ] **6. Mở [Ngày 0 — Chuẩn bị](/vi/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi)** — bắt đầu lộ trình 5 ngày.
+
+:::tip
+**Mẹo:** Đừng đọc hết một lượt rồi mới làm. Đọc **đến đâu làm đến đó** — mỗi trang chỉ nhắm 1 câu hỏi, và tiêu chí "Xong khi" ở cuối mỗi ngày cho bạn biết khi nào được sang ngày kế.
+:::
+
+## Bạn sẽ cần bao nhiêu thời gian?
+
+| Giai đoạn                     | Thời gian     | Bạn làm gì                                                                 |
+| ----------------------------- | ------------- | -------------------------------------------------------------------------- |
+| **Onboarding (trang này)**    | 5 phút        | Lưu số hỗ trợ, vào nhóm, xem video, chuẩn bị đọc                           |
+| **Ngày 0 — Chuẩn bị**         | 1–2 tiếng     | Sắp chỗ đặt box, mua tài khoản/proxy thử, quay video mở hộp                |
+| **Ngày 1 → 5 — Lộ trình**     | 5 ngày        | Mỗi ngày 1 câu hỏi, mỗi ngày 1 mục tiêu rõ ràng                            |
+| **Nuôi tài khoản**            | 2–4 tuần      | Để hệ thống chạy, tài khoản dần "sống"; đây mới là lúc bắt đầu có kết quả  |
+
+:::note
+**Làm chủ hệ thống** không phải **ra kết quả**. Bạn sẽ làm chủ được sau 5 ngày; nhưng cần 2–4 tuần nuôi tài khoản mới bắt đầu thấy số. Biết trước sẽ đỡ hụt hẫng.
+:::
+
+## Câu hỏi khách mới hay hỏi
+
+**Tôi chưa rành công nghệ, có dùng được không?**
+Được. Lộ trình 5 ngày viết cho người mới hoàn toàn — mỗi ngày chỉ nhắm 1 việc, không dùng thuật ngữ khó, có [thuật ngữ](/vi/thuat-ngu) tra cứu khi cần.
+
+**Nếu kẹt giữa chừng thì sao?**
+Mở [Tra cứu theo triệu chứng](/vi/tra-cuu-theo-trieu-chung) trước. Nếu vẫn không xử lý được, [nhắn WhatsApp hỗ trợ](/vi/lien-he-ho-tro) theo mẫu có sẵn — gửi đủ 5 mục là được xử lý trong một lượt.
+
+**Tôi có cần mua thêm gì không?**
+Ngoài box và gói bạn đã mua, cần chuẩn bị thêm: **tài khoản + proxy** (mua bên thứ ba), **API key vilao.ai** (~50.000 VND, dùng cho bình luận tự động), và **bộ lưu điện** nếu muốn hệ thống không tắt đột ngột khi mất điện. Chi tiết ở [Ngày 0](/vi/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi).
+
+**Có thể chạy trên laptop wifi không?**
+Được nếu bạn dùng **GenRouter H3000**. Nếu dùng **mini PC**, bắt buộc nối **LAN** — laptop không có cổng Ethernet cần cổng chuyển USB-to-LAN. Xem bảng "Cách nối máy tính điều khiển" ở [Ngày 0](/vi/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi).
+
+## Cần hỗ trợ ngay?
+
+* **WhatsApp kỹ thuật** — [+84 79 243 2905](https://wa.me/84792432905)
+* **Email** — genfarmer.packagee@gmail.com
+* **Cộng đồng khách hàng** — [nhóm WhatsApp](https://chat.whatsapp.com/J8bchy0IIwREeAI1z7Jmvo?mode=gi_t)
+* **Sales — mua thêm gói automation** — [+84 97 123 46 01](https://wa.me/84971234601)
+
+<p align="center" style="margin-top:2rem"><a href="/vi/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi" class="button primary">Sẵn sàng — bắt đầu Ngày 0 →</a></p>

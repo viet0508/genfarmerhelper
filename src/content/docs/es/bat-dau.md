@@ -1,0 +1,86 @@
+---
+title: "Empezar aquí · Onboarding del cliente"
+description: "Primera página para clientes nuevos de GenFarmer BoxPhone. Una lista de 5 minutos para saber dónde estás, qué leer luego y a quién contactar."
+---
+
+¡Bienvenido a **GenFarmer**! Esta página es para clientes que acaban de recibir un box — te toma **5 minutos** ubicarte y saber exactamente cómo se ven los próximos cinco días.
+
+<p align="center">
+  <a href="/es/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi" class="button primary">Empezar Día 0 →</a>
+  <a href="https://youtu.be/dWUFV9oCnL0" class="button secondary">Ver el video guía</a>
+</p>
+
+## ¿En qué punto estás?
+
+Elige la situación más cercana — cada una lleva al paso correcto:
+
+#### [Acabo de pedirlo, todavía no recibo el box](/es/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi)
+
+Lee **Día 0 — Preparación**. Siete cosas por resolver antes de que llegue el equipo: lugar, energía, red, PC de control, 5 cuentas + 5 proxies de prueba, una clave API de vilao.ai y un teléfono para filmar el unboxing.
+
+#### [El box ya llegó, aún no lo enciendo](/es/a2-lo-trinh-mot-tuan/a4-ngay-1-phan-cung)
+
+**Filma el unboxing** antes de romper el sello — es tu prueba de garantía. Luego empieza **Día 1 — Hardware** para dominar los 20 teléfonos.
+
+#### [Controlo los teléfonos pero no sé cómo criar cuentas](/es/a2-lo-trinh-mot-tuan/a5-ngay-2-danh-tinh)
+
+Pasa a **Día 2 — Identidad**: proxies, cuentas, GenFarmer Trust. Es la capa más importante — la diferencia entre cuentas que mueren en 24 horas y las que sobreviven.
+
+#### [Quiero que el sistema corra mientras duermo](/es/a2-lo-trinh-mot-tuan/a6-ngay-3-tu-dong)
+
+Lee **Día 3 — Automatización**: descarga escenarios de la Mini-App Store, configura el Schedule, revisa por la mañana.
+
+#### [Veo un error en pantalla](/es/tra-cuu-theo-trieu-chung)
+
+Búscalo por síntoma — el 90% de los problemas comunes ya tiene solución. ¿Sigues atascado? [Contacta al soporte](/es/lien-he-ho-tro) con la plantilla lista.
+
+## Checklist de 5 minutos para clientes nuevos
+
+Marca cada punto en orden. Cuando estén todos, considérate "onboardeado".
+
+* [ ] **1. Guarda el WhatsApp de soporte** — [+84 79 243 2905](https://wa.me/84792432905). Copia la [plantilla de mensaje de soporte](/es/lien-he-ho-tro#mẫu-tin-nhắn--copy-điền-gửi) para tenerla cuando la necesites.
+* [ ] **2. Únete al grupo de clientes en WhatsApp** — [entra aquí](https://chat.whatsapp.com/J8bchy0IIwREeAI1z7Jmvo?mode=gi_t). Respuestas rápidas y tips de otros usuarios.
+* [ ] **3. Guarda esta página en marcadores** — para volver a consultar rápido.
+* [ ] **4. Mira el [video guía](https://youtu.be/dWUFV9oCnL0) una vez** — 15 min para ver todo el sistema antes de tocarlo.
+* [ ] **5. Lee [A1 · Las cuatro capas](/es/a1-bon-lop-he-thong)** — 3 min. Cuando algo se rompa, lo primero es saber qué capa falló.
+* [ ] **6. Abre [Día 0 — Preparación](/es/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi)** — arranca la ruta de 5 días.
+
+:::tip
+**Consejo:** no leas todo antes de empezar. Lee **conforme avanzas** — cada página apunta a una pregunta, y el criterio "Hecho cuando" al final de cada día te dice cuándo puedes pasar al siguiente.
+:::
+
+## ¿Cuánto tiempo lleva?
+
+| Etapa                             | Tiempo         | Qué haces                                                              |
+| --------------------------------- | -------------- | ---------------------------------------------------------------------- |
+| **Onboarding (esta página)**      | 5 minutos      | Guardar soporte, entrar al grupo, ver el video, prepararte para leer   |
+| **Día 0 — Preparación**           | 1–2 horas      | Ubicación, comprar cuentas/proxies de prueba, filmar el unboxing       |
+| **Día 1 → 5 — Ruta**              | 5 días         | Una pregunta al día, un objetivo claro al día                          |
+| **Warm-up de cuentas**            | 2–4 semanas    | Deja correr el sistema; las cuentas "cobran vida" — empiezan resultados |
+
+:::note
+**Dominar el sistema** no es lo mismo que **obtener resultados**. Lo dominas en 5 días, pero las cuentas necesitan 2–4 semanas de warm-up antes de ver números. Saberlo evita la decepción.
+:::
+
+## Preguntas frecuentes de clientes nuevos
+
+**No sé mucho de tecnología, ¿puedo usarlo?**
+Sí. La ruta de 5 días está escrita para principiantes — una cosa al día, sin jerga, y un [glosario](/es/thuat-ngu) cuando lo necesites.
+
+**¿Y si me atasco?**
+Abre [Buscar por síntoma](/es/tra-cuu-theo-trieu-chung) primero. ¿Sigues atascado? [Escribe al WhatsApp de soporte](/es/lien-he-ho-tro) usando la plantilla — envía los 5 datos y te ayudarán en una sola respuesta.
+
+**¿Necesito comprar algo más?**
+Además del box y el paquete: **cuentas + proxies** (terceros), una **clave API de vilao.ai** (~50.000 VND, para comentarios automáticos) y un **UPS** si quieres que el sistema aguante cortes de luz. Detalles en [Día 0](/es/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi).
+
+**¿Puedo correrlo en una laptop con wifi?**
+Sí, si usas un **GenRouter H3000**. Con **mini PC** debes conectar por **LAN** — una laptop sin puerto Ethernet necesita adaptador USB-to-LAN. Ver la tabla "Cómo conectar el PC de control" en [Día 0](/es/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi).
+
+## ¿Necesitas ayuda ahora?
+
+* **WhatsApp técnico** — [+84 79 243 2905](https://wa.me/84792432905)
+* **Email** — genfarmer.packagee@gmail.com
+* **Comunidad de clientes** — [grupo de WhatsApp](https://chat.whatsapp.com/J8bchy0IIwREeAI1z7Jmvo?mode=gi_t)
+* **Ventas — paquetes de automatización adicionales** — [+84 97 123 46 01](https://wa.me/84971234601)
+
+<p align="center" style="margin-top:2rem"><a href="/es/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi" class="button primary">Listo — empezar Día 0 →</a></p>
