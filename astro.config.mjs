@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import mermaid from 'astro-mermaid';
 
 // https://astro.build/config
 export default defineConfig({
@@ -8,6 +9,8 @@ export default defineConfig({
   site: 'https://genfarmer-support.pages.dev',
 
   integrations: [
+    // Renders ```mermaid code blocks as real diagrams. Must come before starlight.
+    mermaid({ theme: 'default', autoTheme: true }),
     starlight({
       title: {
         en: 'GenFarmer Support',

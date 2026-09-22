@@ -1,11 +1,23 @@
 ---
-title: "Giáo trình 1 tuần — Nhập môn BoxPhone GenFarmer"
-description: "Phần A · Trang A1–A7 · Đọc trước khi mở HDSD 141 trang. Bản 1.0 · 09/2026."
+title: "GenFarmer Hỗ trợ"
+description: "Trung tâm hỗ trợ & giáo trình nhập môn BoxPhone GenFarmer. Phần A · Trang A1–A7 · Bản 1.0 · 09/2026."
+template: splash
+hero:
+  tagline: "Năm ngày để làm chủ hệ thống — không phải năm ngày để ra kết quả. Ra kết quả cần 2–4 tuần nuôi tài khoản. Biết trước hai mốc này sẽ đỡ hụt hẫng."
+  image:
+    file: ../../../assets/genfarmer-logo.png
+  actions:
+    - text: Bắt đầu · Onboarding
+      link: /vi/bat-dau
+      icon: right-arrow
+      variant: primary
+    - text: Xem video hướng dẫn
+      link: https://youtu.be/dWUFV9oCnL0
+      icon: external
+      variant: minimal
 ---
 
-Năm ngày để làm chủ hệ thống, không phải năm ngày để ra kết quả. **Ra kết quả cần 2–4 tuần nuôi tài khoản.** Hai mốc này khác nhau, và biết trước sẽ đỡ hụt hẫng.
-
-<p align="center"><a href="https://youtu.be/dWUFV9oCnL0" class="button primary">Xem video hướng dẫn sử dụng</a> <a href="/vi/lien-he-ho-tro" class="button secondary">Liên hệ hỗ trợ</a></p>
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
 
 :::note
 Giáo trình này đi kèm Hướng dẫn sử dụng (HDSD) đầy đủ của GenFarmer — bản 141 trang và [video hướng dẫn](https://youtu.be/dWUFV9oCnL0). Giáo trình dạy **trình tự và lý do**; HDSD là thư viện tra cứu chi tiết. Khi cần thao tác cụ thể, giáo trình sẽ chỉ đúng số trang HDSD cần mở.
@@ -13,29 +25,14 @@ Giáo trình này đi kèm Hướng dẫn sử dụng (HDSD) đầy đủ của 
 
 ## Đọc theo thứ tự nào
 
-#### [A1 · Bốn lớp hệ thống](/vi/a1-bon-lop-he-thong)
-
-Đọc trước tiên. Khi có sự cố, việc đầu tiên là xác định hỏng ở lớp nào.
-
-#### [A2 · Lộ trình một tuần](/vi/a2-lo-trinh-mot-tuan)
-
-Ngày 0 đến Ngày 5: Chuẩn bị · Phần cứng · Danh tính · Tự động · Nền tảng. Mỗi ngày một câu hỏi.
-
-#### [Tra cứu theo triệu chứng](/vi/tra-cuu-theo-trieu-chung)
-
-Dành cho lần đọc thứ hai — tra theo thứ đang thấy trên màn hình.
-
-#### [Thuật ngữ](/vi/thuat-ngu)
-
-Box, GenRouter, OTG, Proxy, Isolate Mode, Trust, Boost… giải thích ngắn gọn.
-
-#### [Trước khi liên hệ hỗ trợ](/vi/lien-he-ho-tro)
-
-Kênh hỗ trợ, 5 thông tin cần gửi kèm và mẫu tin nhắn có sẵn.
-
-#### [Video hướng dẫn sử dụng](https://youtu.be/dWUFV9oCnL0)
-
-Xem toàn bộ thao tác trên phần mềm GenFarmer, từ cài đặt đến chạy kịch bản.
+<CardGrid>
+  <LinkCard title="Bắt đầu · Onboarding khách hàng" href="/vi/bat-dau" description="Trang đầu tiên cho khách mới. Checklist 5 phút để biết mình đang ở đâu và làm gì tiếp theo." />
+  <LinkCard title="A1 · Bốn lớp hệ thống" href="/vi/a1-bon-lop-he-thong" description="Đọc trước tiên. Khi có sự cố, việc đầu tiên là xác định hỏng ở lớp nào." />
+  <LinkCard title="A2 · Lộ trình một tuần" href="/vi/a2-lo-trinh-mot-tuan" description="Ngày 0 đến Ngày 5: Chuẩn bị · Phần cứng · Danh tính · Tự động · Nền tảng." />
+  <LinkCard title="Tra cứu theo triệu chứng" href="/vi/tra-cuu-theo-trieu-chung" description="Dành cho lần đọc thứ hai — tra theo thứ đang thấy trên màn hình." />
+  <LinkCard title="Thuật ngữ" href="/vi/thuat-ngu" description="Box, GenRouter, OTG, Proxy, Isolate Mode, Trust, Boost… giải thích ngắn gọn." />
+  <LinkCard title="Trước khi liên hệ hỗ trợ" href="/vi/lien-he-ho-tro" description="Kênh hỗ trợ, 5 thông tin cần gửi kèm và mẫu tin nhắn có sẵn." />
+</CardGrid>
 
 ## Lộ trình tóm tắt
 

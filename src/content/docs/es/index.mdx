@@ -1,11 +1,23 @@
 ---
-title: "Curso de 1 semana — Primeros pasos con GenFarmer BoxPhone"
-description: "Parte A · Páginas A1–A7 · Léelo antes de abrir el Manual de usuario (HDSD) de 141 páginas. Versión 1.0 · 09/2026."
+title: "GenFarmer Soporte"
+description: "Centro de soporte y curso de primeros pasos para GenFarmer BoxPhone. Parte A · Páginas A1–A7 · Versión 1.0 · 09/2026."
+template: splash
+hero:
+  tagline: "Cinco días para dominar el sistema — no para obtener resultados. Obtener resultados requiere 2–4 semanas de calentar cuentas. Saber ambos hitos de antemano te ahorra frustraciones."
+  image:
+    file: ../../../assets/genfarmer-logo.png
+  actions:
+    - text: Empezar · Onboarding
+      link: /es/bat-dau
+      icon: right-arrow
+      variant: primary
+    - text: Ver el video tutorial
+      link: https://youtu.be/dWUFV9oCnL0
+      icon: external
+      variant: minimal
 ---
 
-Cinco días para dominar el sistema, no cinco días para obtener resultados. **Obtener resultados requiere 2–4 semanas de calentar cuentas.** Son dos hitos distintos, y saberlo de antemano te ahorra frustraciones.
-
-<p align="center"><a href="https://youtu.be/dWUFV9oCnL0" class="button primary">Ver el video tutorial</a> <a href="/es/lien-he-ho-tro" class="button secondary">Contactar a soporte</a></p>
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
 
 :::note
 Este curso acompaña al Manual de usuario (HDSD) completo de GenFarmer — la versión de 141 páginas — y al [video tutorial](https://youtu.be/dWUFV9oCnL0). El curso enseña **el orden y el porqué**; el HDSD es la biblioteca de consulta detallada. Cuando necesites un procedimiento concreto, el curso te indicará la página exacta del HDSD que debes abrir.
@@ -13,29 +25,14 @@ Este curso acompaña al Manual de usuario (HDSD) completo de GenFarmer — la ve
 
 ## En qué orden leer
 
-#### [A1 · Las cuatro capas del sistema](/es/a1-bon-lop-he-thong)
-
-Léelo primero. Ante un problema, lo primero es identificar en qué capa está la falla.
-
-#### [A2 · Hoja de ruta de una semana](/es/a2-lo-trinh-mot-tuan)
-
-Del Día 0 al Día 5: Preparación · Hardware · Identidad · Automatización · Plataforma. Una pregunta por día.
-
-#### [Diagnóstico por síntoma](/es/tra-cuu-theo-trieu-chung)
-
-Para la segunda lectura — busca según lo que ves en pantalla.
-
-#### [Glosario](/es/thuat-ngu)
-
-Box, GenRouter, OTG, Proxy, Isolate Mode, Trust, Boost… explicados en pocas palabras.
-
-#### [Antes de contactar a soporte](/es/lien-he-ho-tro)
-
-Canales de soporte, los 5 datos que debes adjuntar y una plantilla de mensaje lista para usar.
-
-#### [Video tutorial](https://youtu.be/dWUFV9oCnL0)
-
-Mira todas las operaciones en el software GenFarmer, desde la instalación hasta la ejecución de scripts.
+<CardGrid>
+  <LinkCard title="Empezar · Onboarding del cliente" href="/es/bat-dau" description="La primera página para clientes nuevos. Una lista de 5 minutos para saber dónde estás y qué hacer luego." />
+  <LinkCard title="A1 · Las cuatro capas del sistema" href="/es/a1-bon-lop-he-thong" description="Léelo primero. Ante un problema, lo primero es identificar en qué capa está la falla." />
+  <LinkCard title="A2 · Hoja de ruta de una semana" href="/es/a2-lo-trinh-mot-tuan" description="Del Día 0 al Día 5: Preparación · Hardware · Identidad · Automatización · Plataforma." />
+  <LinkCard title="Diagnóstico por síntoma" href="/es/tra-cuu-theo-trieu-chung" description="Para la segunda lectura — busca según lo que ves en pantalla." />
+  <LinkCard title="Glosario" href="/es/thuat-ngu" description="Box, GenRouter, OTG, Proxy, Isolate Mode, Trust, Boost… explicados en pocas palabras." />
+  <LinkCard title="Antes de contactar a soporte" href="/es/lien-he-ho-tro" description="Canales de soporte, los 5 datos que debes adjuntar y una plantilla de mensaje lista para usar." />
+</CardGrid>
 
 ## Hoja de ruta resumida
 

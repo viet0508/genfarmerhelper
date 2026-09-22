@@ -1,11 +1,23 @@
 ---
-title: "1週間コース — GenFarmer BoxPhone 入門"
-description: "パートA · A1〜A7 · 141ページのユーザーマニュアル（HDSD）を開く前にお読みください。バージョン1.0 · 2026年9月。"
+title: "GenFarmer サポート"
+description: "GenFarmer BoxPhone のサポートセンター＆入門コース。パートA · A1〜A7 · バージョン1.0 · 2026年9月。"
+template: splash
+hero:
+  tagline: "5日間はシステムを使いこなすための期間であり、成果を出すための期間ではありません。成果が出るまでには 2〜4 週間のアカウント育成が必要です。この2つの節目を先に知っておけば、がっかりせずに済みます。"
+  image:
+    file: ../../../assets/genfarmer-logo.png
+  actions:
+    - text: はじめに · オンボーディング
+      link: /ja/bat-dau
+      icon: right-arrow
+      variant: primary
+    - text: 操作説明ビデオを見る
+      link: https://youtu.be/dWUFV9oCnL0
+      icon: external
+      variant: minimal
 ---
 
-5日間はシステムを使いこなすための期間であり、成果を出すための期間ではありません。**成果が出るまでには、2〜4週間のアカウントの育成が必要です。** この2つの節目は別物です。あらかじめ知っておけば、がっかりせずに済みます。
-
-<p align="center"><a href="https://youtu.be/dWUFV9oCnL0" class="button primary">操作説明ビデオを見る</a> <a href="/ja/lien-he-ho-tro" class="button secondary">サポートに連絡する</a></p>
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
 
 :::note
 このコースは、GenFarmer の完全版ユーザーマニュアル（HDSD・141ページ）と[操作説明ビデオ](https://youtu.be/dWUFV9oCnL0)に付属するものです。コースでは**手順の順番と、その理由**を学びます。HDSD は詳細を調べるための資料集です。具体的な操作が必要なときは、コースから開くべき HDSD のページ番号を案内します。
@@ -13,29 +25,14 @@ description: "パートA · A1〜A7 · 141ページのユーザーマニュア�
 
 ## 読む順番
 
-#### [A1 · システムの4つのレイヤー](/ja/a1-bon-lop-he-thong)
-
-最初に読んでください。トラブルが起きたとき、まず行うのは、どのレイヤーが壊れているかを特定することです。
-
-#### [A2 · 1週間のロードマップ](/ja/a2-lo-trinh-mot-tuan)
-
-0日目から5日目まで：準備 · ハードウェア · アイデンティティ · 自動化 · プラットフォーム。1日に1つの問いに答えます。
-
-#### [症状から探す](/ja/tra-cuu-theo-trieu-chung)
-
-2回目以降に読むためのページ — 画面に表示されているものから探します。
-
-#### [用語集](/ja/thuat-ngu)
-
-Box、GenRouter、OTG、プロキシ、Isolate Mode、Trust、Boost…を簡潔に説明します。
-
-#### [サポートに連絡する前に](/ja/lien-he-ho-tro)
-
-サポート窓口、添えるべき5つの情報、そのまま使えるメッセージのテンプレート。
-
-#### [操作説明ビデオ](https://youtu.be/dWUFV9oCnL0)
-
-インストールからスクリプトの実行まで、GenFarmer ソフトウェアの操作をすべて見られます。
+<CardGrid>
+  <LinkCard title="はじめに · お客様オンボーディング" href="/ja/bat-dau" description="新規のお客様向けの最初のページ。5分で現在地と次にすることが分かるチェックリスト。" />
+  <LinkCard title="A1 · システムの4つのレイヤー" href="/ja/a1-bon-lop-he-thong" description="最初に読んでください。トラブル時、まずどのレイヤーが壊れているかを特定します。" />
+  <LinkCard title="A2 · 1週間のロードマップ" href="/ja/a2-lo-trinh-mot-tuan" description="0日目から5日目まで：準備 · ハードウェア · アイデンティティ · 自動化 · プラットフォーム。" />
+  <LinkCard title="症状から探す" href="/ja/tra-cuu-theo-trieu-chung" description="2回目以降に読むためのページ — 画面に表示されているものから探します。" />
+  <LinkCard title="用語集" href="/ja/thuat-ngu" description="Box、GenRouter、OTG、プロキシ、Isolate Mode、Trust、Boost…を簡潔に説明します。" />
+  <LinkCard title="サポートに連絡する前に" href="/ja/lien-he-ho-tro" description="サポート窓口、添えるべき5つの情報、そのまま使えるメッセージのテンプレート。" />
+</CardGrid>
 
 ## ロードマップの概要
 
