@@ -58,3 +58,84 @@
 
 /* Card-like spacing for the "#### [Title](link)" nav blocks on the home page */
 .sl-markdown-content h4 { margin-top: 1.4rem; }
+
+/* ------------------------------------------------------------------ *
+ * UI polish — Minimalism/Swiss direction: subtle depth, calm motion.
+ * Brand colours and Inter are kept; this only adds hover/shadow/focus.
+ * ------------------------------------------------------------------ */
+
+:root {
+  --gf-shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.06);
+  --gf-shadow-md: 0 6px 20px -6px rgba(17, 56, 238, 0.18);
+  --gf-ease: cubic-bezier(0.4, 0, 0.2, 1);
+}
+:root[data-theme='dark'] {
+  --gf-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --gf-shadow-md: 0 8px 24px -8px rgba(0, 0, 0, 0.6);
+}
+
+/* Link cards & cards: lift + accent border on hover (200ms) */
+.sl-link-card,
+.card {
+  box-shadow: var(--gf-shadow-sm);
+  transition: transform 0.2s var(--gf-ease),
+              box-shadow 0.2s var(--gf-ease),
+              border-color 0.2s var(--gf-ease);
+  will-change: transform;
+}
+.sl-link-card:hover,
+.card:hover {
+  transform: translateY(-3px);
+  border-color: var(--sl-color-accent);
+  box-shadow: var(--gf-shadow-md);
+}
+.sl-link-card:hover .title { color: var(--sl-color-accent); }
+
+/* Hero action buttons: smooth press + lift */
+.hero .actions a {
+  transition: transform 0.2s var(--gf-ease), box-shadow 0.2s var(--gf-ease);
+}
+.hero .actions a:hover { transform: translateY(-2px); box-shadow: var(--gf-shadow-md); }
+
+/* Inline .button chips: calmer transition */
+.button { transition: background 0.2s var(--gf-ease), transform 0.2s var(--gf-ease); }
+.button.primary:hover, .button.secondary:hover { transform: translateY(-1px); }
+
+/* Mermaid diagrams: framed, centered, breathing room */
+.mermaid,
+.sl-markdown-content .mermaid {
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem;
+  margin-block: 1.5rem;
+  background: var(--sl-color-gray-7, #f6f7f9);
+  border: 1px solid var(--sl-color-gray-5);
+  border-radius: 12px;
+  overflow-x: auto;
+}
+:root[data-theme='dark'] .mermaid { background: var(--sl-color-black); }
+
+/* Clear, consistent focus ring for keyboard users */
+.sl-link-card a:focus-visible,
+.button:focus-visible,
+.hero .actions a:focus-visible {
+  outline: 2px solid var(--sl-color-accent);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* Respect users who prefer less motion */
+@media (prefers-reduced-motion: reduce) {
+  .sl-link-card,
+  .card,
+  .hero .actions a,
+  .button {
+    transition: none;
+  }
+  .sl-link-card:hover,
+  .card:hover,
+  .hero .actions a:hover,
+  .button:hover {
+    transform: none;
+  }
+}
