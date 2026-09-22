@@ -1,16 +1,95 @@
 ---
 title: "Empezar aquí · Onboarding del cliente"
-description: "Primera página para clientes nuevos de GenFarmer BoxPhone. Una lista de 5 minutos para saber dónde estás, qué leer luego y a quién contactar."
+description: "Primera página para clientes nuevos de GenFarmer BoxPhone. Qué hace el sistema por ti, qué necesitas aportar, los riesgos a conocer y una lista de 5 minutos para empezar en el lugar correcto."
 ---
 
-import { CardGrid, LinkCard } from '@astrojs/starlight/components';
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
 
-¡Bienvenido a **GenFarmer**! Esta página es para clientes que acaban de recibir un box — te toma **5 minutos** ubicarte y saber exactamente cómo se ven los próximos cinco días.
+¡Bienvenido a **GenFarmer**! Esta página es para clientes nuevos — incluso si **no eres técnico** o **aún no sabes nada del sistema**. Toma unos 10 minutos; después sabrás qué compraste, qué preparar y por dónde empezar.
 
 <p align="center">
   <a href="/es/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi" class="button primary">Empezar Día 0 →</a>
   <a href="https://youtu.be/dWUFV9oCnL0" class="button secondary">Ver el video guía</a>
 </p>
+
+## ¿Qué hace este sistema por ti?
+
+60 segundos — para saber qué tienes y qué te entrega, antes de tocar el equipo.
+
+<CardGrid>
+  <Card title="Qué tienes" icon="laptop">
+    Un **box con 20 teléfonos**, un **router** (GenRouter H3000 o un mini PC) que da a cada teléfono su propia línea de internet, y el **software GenFarmer** en tu PC para controlar los 20 a la vez.
+  </Card>
+  <Card title="Qué hace por ti" icon="setting">
+    Cada teléfono corre **una cuenta en su propia línea de red** — como 20 personas reales en 20 lugares distintos. Los escenarios automáticos **inician sesión, calientan cuentas e impulsan la interacción** según un horario, incluso mientras duermes. Para TikTok, Facebook, Instagram, X, Spotify.
+  </Card>
+  <Card title="Qué obtienes" icon="rocket">
+    Tras **5 días** operas el sistema por tu cuenta, sin preguntar a nadie. Tras **2–4 semanas de warm-up**, las cuentas son estables y "viven" — solo entonces sirven para tus objetivos en cada plataforma (ver Día 4–5).
+  </Card>
+</CardGrid>
+
+## Qué necesitas aportar: dinero · tiempo · personas
+
+### Dinero — todo lo que va más allá del box
+
+El box y el paquete que compraste **no son todo**. Esta tabla reúne cada ítem restante para que lo resuelvas antes de que llegue el equipo y nunca te quedes a medias.
+
+| Ítem | ¿Obligatorio? | Costo | Dónde |
+| --- | --- | --- | --- |
+| **PC de control** (laptop o escritorio) | Obligatorio | Usa el que tienes | A mano |
+| **Red cableada** + 1 puerto libre en el módem | Obligatorio | 0 | A mano |
+| **Enchufe de 3 clavijas exclusivo**, no compartido con aire acondicionado o lavadora | Obligatorio | Poco, si no tienes | Ferretería eléctrica |
+| **Cuentas de redes sociales** — 5 para probar, luego hasta 20 | Obligatorio | Ver cuadro "por completar" abajo | Terceros — elige una fuente confiable |
+| **Proxies** — 5 para probar, luego hasta 20 (uno por teléfono) | Obligatorio | Ver cuadro "por completar" abajo | Terceros — elige una fuente confiable |
+| **Clave API de vilao.ai** (para comentarios automáticos) | Solo si usas comentarios automáticos | ~50.000 VND (~2% de comisión) | [vilao.ai/console](https://vilao.ai/console) |
+| **UPS de 1.000VA o más** | Recomendado — evita caídas por cortes de luz | Ver cuadro "por completar" abajo | Ferretería eléctrica |
+| **Cable LAN Cat6** | Solo con mini PC | Poco | Tienda de computación |
+| **Adaptador USB-to-LAN / Type-C-to-LAN** | Solo si tu laptop no tiene puerto Ethernet | Unos 100.000–200.000 VND | Tienda de computación |
+| **Un teléfono para filmar el unboxing** | Obligatorio — es tu prueba de garantía | 0 | A mano |
+
+:::tip[Ahorra dinero]
+Compra solo **5 cuentas + 5 proxies** para probar primero. Escala a 20 cuando funcione bien. No compres 20 de entrada.
+:::
+
+### Tiempo
+
+| Etapa | Tiempo | Qué haces |
+| --- | --- | --- |
+| **Onboarding (esta página)** | 10 minutos | Entender el sistema, resolver costos, guardar soporte, entrar al grupo |
+| **Día 0 — Preparación** | 1–2 horas | Ubicación, comprar cuentas/proxies de prueba, filmar el unboxing |
+| **Día 1 → 5 — Ruta** | 5 días | Una pregunta al día, con un criterio claro de "Listo cuando" |
+| **Warm-up de cuentas** | 2–4 semanas | Deja correr el sistema; revisa una vez cada mañana |
+
+:::note[Dos hitos distintos]
+**Dominar el sistema** (5 días) no es **obtener resultados** (2–4 semanas). Saberlo de antemano evita la decepción — y no cambies la configuración a cada rato mientras esperas.
+:::
+
+### Personas — quién hace qué
+
+Una sola persona puede hacerlo todo. Si tu empresa tiene dos personas, reparte así:
+
+* **Dueño del negocio** — decide dónde comprar cuentas/proxies, elige plataforma y nicho (Día 4–5), lee la sección *Riesgos* abajo, guarda el video del unboxing.
+* **Operador** — hace la ruta de 5 días, revisa el sistema cada mañana, escribe a soporte con la plantilla cuando se atasca.
+
+## Riesgos a conocer antes de empezar
+
+Dicho con claridad, para que nada te sorprenda. Cada riesgo tiene una mitigación y la documentación indica dónde.
+
+* **Las cuentas pueden ser bloqueadas** — sobre todo cuando varios teléfonos comparten un proxy, o el Día 2 se configura mal. *Mitigar:* un proxy por teléfono, seguir el Día 2 en orden, probar con 5 antes de escalar a 20.
+* **Que los números no crezcan en las primeras 2–4 semanas es normal** — las cuentas necesitan tiempo para "cobrar vida". *Mitigar:* deja de cambiar ajustes; elige el nicho correcto en el Día 4–5.
+* **Calor y energía** — un box en un mueble cerrado reduce su rendimiento; compartir enchufe con un aparato potente tumba el sistema a mitad de ejecución. *Mitigar:* lugar ventilado, enchufe exclusivo, un UPS.
+* **Instalar la app equivocada** — los enlaces del manual antiguo llevan a otra app. *Mitigar:* usa solo la carpeta APK oficial del Día 2.
+* **Garantía del hardware** — sin video del unboxing es difícil probar un defecto de fábrica. *Mitigar:* filma **antes de romper el sello**, mantenlo intacto.
+* **Las cuentas y los proxies son tu costo**, comprados a terceros — elige fuentes confiables y empieza en pequeño.
+
+:::caution[Para que GenFarmer complete antes de publicar]
+Las cifras siguientes no están en el material original, así que no se inventaron. Complétalas y luego borra este cuadro.
+* Precio de referencia de **cuentas** y **proxies** de la fuente recomendada
+* Precio del **UPS** recomendado
+* **Horario de soporte** (actualmente "en actualización")
+* **Política cuando una cuenta es bloqueada**: quién asume el costo, si hay reemplazo
+* (Opcional) **Resultados típicos tras 4 semanas** para que el cliente se lo imagine
+:::
 
 ## ¿En qué punto estás?
 
@@ -19,6 +98,7 @@ Elige la situación más cercana — cada tarjeta lleva al paso correcto:
 <CardGrid>
   <LinkCard title="Acabo de pedirlo, todavía no recibo el box" href="/es/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi" description="Lee Día 0 — Preparación. Siete cosas por resolver antes de que llegue el equipo: lugar, energía, red, PC de control, 5 cuentas + 5 proxies de prueba, una clave API de vilao.ai y un teléfono para filmar el unboxing." />
   <LinkCard title="El box ya llegó, aún no lo enciendo" href="/es/a2-lo-trinh-mot-tuan/a4-ngay-1-phan-cung" description="Filma el unboxing antes de romper el sello — es tu prueba de garantía. Luego empieza Día 1 — Hardware para dominar los 20 teléfonos." />
+  <LinkCard title="Ya lo encendí, sin video todavía" href="/es/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi" description="No pasa nada. Fílmalo ahora, más una foto del sello y el número del box. Luego vuelve al Día 0 y repasa rápido los 7 ítems de preparación antes del Día 1." />
   <LinkCard title="Controlo los teléfonos pero no sé cómo criar cuentas" href="/es/a2-lo-trinh-mot-tuan/a5-ngay-2-danh-tinh" description="Día 2 — Identidad: proxies, cuentas, GenFarmer Trust. La capa más importante — la diferencia entre cuentas que mueren en 24 horas y las que sobreviven." />
   <LinkCard title="Quiero que el sistema corra mientras duermo" href="/es/a2-lo-trinh-mot-tuan/a6-ngay-3-tu-dong" description="Día 3 — Automatización: descarga escenarios de la Mini-App Store, configura el Schedule, revisa por la mañana." />
   <LinkCard title="Veo un error en pantalla" href="/es/tra-cuu-theo-trieu-chung" description="Búscalo por síntoma — el 90% de los problemas comunes ya tiene solución. ¿Sigues atascado? Contacta al soporte con la plantilla lista." />
@@ -30,26 +110,13 @@ Marca cada punto en orden. Cuando estén todos, considérate "onboardeado".
 
 * [ ] **1. Guarda el WhatsApp de soporte** — [+84 79 243 2905](https://wa.me/84792432905). Copia la [plantilla de mensaje de soporte](/es/lien-he-ho-tro#mẫu-tin-nhắn--copy-điền-gửi) para tenerla cuando la necesites.
 * [ ] **2. Únete al grupo de clientes en WhatsApp** — [entra aquí](https://chat.whatsapp.com/J8bchy0IIwREeAI1z7Jmvo?mode=gi_t). Respuestas rápidas y tips de otros usuarios.
-* [ ] **3. Guarda esta página en marcadores** — para volver a consultar rápido.
+* [ ] **3. Resuelve la tabla de costos de arriba** — al menos 5 cuentas + 5 proxies, un enchufe exclusivo, un PC de control.
 * [ ] **4. Mira el [video guía](https://youtu.be/dWUFV9oCnL0) una vez** — 15 min para ver todo el sistema antes de tocarlo.
 * [ ] **5. Lee [A1 · Las cuatro capas](/es/a1-bon-lop-he-thong)** — 3 min. Cuando algo se rompa, lo primero es saber qué capa falló.
 * [ ] **6. Abre [Día 0 — Preparación](/es/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi)** — arranca la ruta de 5 días.
 
 :::tip[Consejo]
 No leas todo antes de empezar. Lee **conforme avanzas** — cada página apunta a una pregunta, y el criterio "Hecho cuando" al final de cada día te dice cuándo puedes pasar al siguiente.
-:::
-
-## ¿Cuánto tiempo lleva?
-
-| Etapa                             | Tiempo         | Qué haces                                                              |
-| --------------------------------- | -------------- | ---------------------------------------------------------------------- |
-| **Onboarding (esta página)**      | 5 minutos      | Guardar soporte, entrar al grupo, ver el video, prepararte para leer   |
-| **Día 0 — Preparación**           | 1–2 horas      | Ubicación, comprar cuentas/proxies de prueba, filmar el unboxing       |
-| **Día 1 → 5 — Ruta**              | 5 días         | Una pregunta al día, un objetivo claro al día                          |
-| **Warm-up de cuentas**            | 2–4 semanas    | Deja correr el sistema; las cuentas "cobran vida" — empiezan resultados |
-
-:::note[Nota]
-**Dominar el sistema** no es lo mismo que **obtener resultados**. Lo dominas en 5 días, pero las cuentas necesitan 2–4 semanas de warm-up antes de ver números. Saberlo evita la decepción.
 :::
 
 ## Preguntas frecuentes de clientes nuevos
@@ -60,8 +127,8 @@ Sí. La ruta de 5 días está escrita para principiantes — una cosa al día, s
 **¿Y si me atasco?**
 Abre [Buscar por síntoma](/es/tra-cuu-theo-trieu-chung) primero. ¿Sigues atascado? [Escribe al WhatsApp de soporte](/es/lien-he-ho-tro) usando la plantilla — envía los 5 datos y te ayudarán en una sola respuesta.
 
-**¿Necesito comprar algo más?**
-Además del box y el paquete: **cuentas + proxies** (terceros), una **clave API de vilao.ai** (~50.000 VND, para comentarios automáticos) y un **UPS** si quieres que el sistema aguante cortes de luz. Detalles en [Día 0](/es/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi).
+**¿Qué es el HDSD?**
+Es el **Manual de usuario** completo de 141 páginas que viene con el equipo. Este sitio enseña *el orden y el porqué*; el HDSD es la referencia detallada. "HDSD pág. 30" significa abrir la página 30 de ese manual.
 
 **¿Puedo correrlo en una laptop con wifi?**
 Sí, si usas un **GenRouter H3000**. Con **mini PC** debes conectar por **LAN** — una laptop sin puerto Ethernet necesita adaptador USB-to-LAN. Ver la tabla "Cómo conectar el PC de control" en [Día 0](/es/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi).

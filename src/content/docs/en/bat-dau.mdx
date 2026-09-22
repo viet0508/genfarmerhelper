@@ -1,16 +1,95 @@
 ---
 title: "Start here · Customer onboarding"
-description: "First page for new GenFarmer BoxPhone customers. A 5-minute checklist to know where you are, what to read next, and who to contact."
+description: "First page for new GenFarmer BoxPhone customers. What the system does for you, what you need to put in, the risks to know, and a 5-minute checklist to start in the right place."
 ---
 
-import { CardGrid, LinkCard } from '@astrojs/starlight/components';
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
 
-Welcome to **GenFarmer**! This page is for customers who just received a box — it takes **5 minutes** to get oriented and know exactly what the next five days look like.
+Welcome to **GenFarmer**! This page is for new customers — including if you are **not technical** or **know nothing about the system yet**. It takes about 10 minutes; afterwards you know what you bought, what to prepare, and where to start.
 
 <p align="center">
   <a href="/en/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi" class="button primary">Start Day 0 →</a>
   <a href="https://youtu.be/dWUFV9oCnL0" class="button secondary">Watch the video walkthrough</a>
 </p>
+
+## What does this system do for you?
+
+60 seconds — so you know what you have and what it delivers, before touching the hardware.
+
+<CardGrid>
+  <Card title="What you have" icon="laptop">
+    A **box holding 20 phones**, a **router** (GenRouter H3000 or a mini PC) that gives every phone its own internet line, and the **GenFarmer software** on your PC to control all 20 phones at once.
+  </Card>
+  <Card title="What it does for you" icon="setting">
+    Each phone runs **one account on its own network line** — like 20 real people in 20 different places. Automation scenarios **log in, warm up accounts and drive engagement** on a schedule, even while you sleep. For TikTok, Facebook, Instagram, X, Spotify.
+  </Card>
+  <Card title="What you get" icon="rocket">
+    After **5 days** you run the system yourself, without asking anyone. After **2–4 weeks of warm-up**, accounts are stable and "alive" — only then are they ready for your goals on each platform (see Day 4–5).
+  </Card>
+</CardGrid>
+
+## What you need to put in: money · time · people
+
+### Money — everything beyond the box
+
+The box and package you bought are **not the whole picture**. This table gathers every remaining item so you can line it up before the box arrives and never get stuck halfway.
+
+| Item | Required? | Cost | Where |
+| --- | --- | --- | --- |
+| **Control PC** (laptop or desktop) | Required | Use what you have | On hand |
+| **Wired network** + 1 free port on the modem | Required | 0 | On hand |
+| **Dedicated 3-prong outlet**, not shared with AC or washing machine | Required | Small, if you lack one | Electrical store |
+| **Social accounts** — 5 to trial, then up to 20 | Required | See "to fill in" box below | Third party — pick a reputable source |
+| **Proxies** — 5 to trial, then up to 20 (one per phone) | Required | See "to fill in" box below | Third party — pick a reputable source |
+| **vilao.ai API key** (for automated commenting) | Only if you use automated comments | ~50,000 VND (~2% fee) | [vilao.ai/console](https://vilao.ai/console) |
+| **UPS, 1,000VA or more** | Recommended — avoids a crash on power loss | See "to fill in" box below | Electrical store |
+| **Cat6 LAN cable** | Only with a mini PC | Small | Computer store |
+| **USB-to-LAN / Type-C-to-LAN adapter** | Only if your laptop has no Ethernet port | About 100,000–200,000 VND | Computer store |
+| **A phone to film the unboxing** | Required — it is your warranty proof | 0 | On hand |
+
+:::tip[Save money]
+Buy only **5 accounts + 5 proxies** to trial first. Scale to 20 once it runs well. Do not buy 20 up front.
+:::
+
+### Time
+
+| Stage | Time | You are doing |
+| --- | --- | --- |
+| **Onboarding (this page)** | 10 minutes | Understand the system, sort out costs, save support, join the group |
+| **Day 0 — Preparation** | 1–2 hours | Placement, buy trial accounts/proxies, film the unboxing |
+| **Day 1 → 5 — Roadmap** | 5 days | One question a day, with a clear "Done when" criterion |
+| **Account warm-up** | 2–4 weeks | Let the system run; check once each morning |
+
+:::note[Two different milestones]
+**Mastering the system** (5 days) is not **getting results** (2–4 weeks). Knowing this up front saves the disappointment — and do not keep changing settings while you wait.
+:::
+
+### People — who does what
+
+One person can do everything. If your business has two people, split it like this:
+
+* **Business owner** — decides where to buy accounts/proxies, picks the platform and niche (Day 4–5), reads the *Risks* section below, keeps the unboxing video.
+* **Operator** — runs the 5-day roadmap, checks the system each morning, messages support with the template when stuck.
+
+## Risks to know before you start
+
+Said plainly, so nothing surprises you. Every risk has a mitigation, and the docs point to the right place.
+
+* **Accounts can get banned** — most often when several phones share one proxy, or Day 2 is set up wrong. *Mitigate:* one proxy per phone, follow Day 2 in order, trial 5 before scaling to 20.
+* **Numbers not growing in the first 2–4 weeks is normal** — accounts need time to "come alive". *Mitigate:* stop changing settings; pick the right niche on Day 4–5.
+* **Heat and power** — a box in a closed cabinet throttles itself; sharing an outlet with a heavy appliance crashes the system mid-run. *Mitigate:* airy spot, dedicated outlet, a UPS.
+* **Installing the wrong app** — links in the old manual lead to a different app. *Mitigate:* use only the official APK folder from Day 2.
+* **Hardware warranty** — without an unboxing video it is hard to prove a factory defect. *Mitigate:* film **before breaking the seal**, keep the seal intact.
+* **Accounts and proxies are your cost**, bought from third parties — choose reputable sources and start small.
+
+:::caution[For GenFarmer to fill in before publishing]
+The figures below are not in the source material, so they were not invented. Fill them in, then delete this box.
+* Reference price of **accounts** and **proxies** from the recommended source
+* Price of the recommended **UPS**
+* **Support working hours** (currently "being updated")
+* **Policy when an account is banned**: who bears the cost, is a replacement supported
+* (Optional) **Typical results after 4 weeks** so customers can picture it
+:::
 
 ## Where are you in the journey?
 
@@ -19,6 +98,7 @@ Pick the situation closest to yours — each card links to the right step:
 <CardGrid>
   <LinkCard title="I just ordered, haven't received the box yet" href="/en/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi" description="Read Day 0 — Preparation. Seven things to line up before the box arrives: placement, power, network, control PC, 5 test accounts + 5 proxies, a vilao.ai API key, and a phone to film the unboxing." />
   <LinkCard title="Box just arrived, not powered on yet" href="/en/a2-lo-trinh-mot-tuan/a4-ngay-1-phan-cung" description="Film the unboxing before breaking the seal — it is your warranty proof. Then start Day 1 — Hardware and learn to control 20 phones." />
+  <LinkCard title="Already powered it on, no video yet" href="/en/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi" description="No problem. Film it now, plus a photo of the seal and box number. Then go back to Day 0 and quickly tick the 7 preparation items before Day 1." />
   <LinkCard title="I can control the phones but don't know how to raise accounts" href="/en/a2-lo-trinh-mot-tuan/a5-ngay-2-danh-tinh" description="Day 2 — Identity: proxies, accounts, GenFarmer Trust. The most important layer — the difference between accounts that die in 24 hours and ones that live." />
   <LinkCard title="I want the system to run while I sleep" href="/en/a2-lo-trinh-mot-tuan/a6-ngay-3-tu-dong" description="Day 3 — Automation: download scenarios from the Mini-App Store, configure Schedule, check it in the morning." />
   <LinkCard title="I'm seeing an error on screen" href="/en/tra-cuu-theo-trieu-chung" description="Look it up by symptom — 90% of common issues already have a fix. Still stuck? Contact support with the ready-made template." />
@@ -30,26 +110,13 @@ Tick each item in order. When they're all checked, consider yourself "onboarded"
 
 * [ ] **1. Save the support WhatsApp** — [+84 79 243 2905](https://wa.me/84792432905). Copy the [support message template](/en/lien-he-ho-tro#mẫu-tin-nhắn--copy-điền-gửi) so you can send a good first message when you need to.
 * [ ] **2. Join the customer WhatsApp group** — [join here](https://chat.whatsapp.com/J8bchy0IIwREeAI1z7Jmvo?mode=gi_t). Quick answers and tips from other users.
-* [ ] **3. Bookmark this page** — so you can come back and look things up fast.
+* [ ] **3. Sort out the cost table above** — at least 5 accounts + 5 proxies, a dedicated outlet, a control PC.
 * [ ] **4. Watch the [video walkthrough](https://youtu.be/dWUFV9oCnL0) once** — 15 min to see the whole system before you touch it.
 * [ ] **5. Read [A1 · The four layers](/en/a1-bon-lop-he-thong)** — 3 min. When something breaks, the first step is knowing which layer is broken.
 * [ ] **6. Open [Day 0 — Preparation](/en/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi)** — start the 5-day roadmap.
 
 :::tip[Tip]
 Don't read everything before starting. Read **as you go** — each page targets one question, and the "Done when" criterion at the bottom of each day tells you when you may move on.
-:::
-
-## How long will this take?
-
-| Stage                             | Time         | You are doing                                                       |
-| --------------------------------- | ------------ | ------------------------------------------------------------------- |
-| **Onboarding (this page)**        | 5 minutes    | Save support, join the group, watch the video, prepare to read      |
-| **Day 0 — Preparation**           | 1–2 hours    | Placement, buy trial accounts/proxies, film the unboxing            |
-| **Day 1 → 5 — Roadmap**           | 5 days       | One question a day, one clear target a day                          |
-| **Account warm-up**               | 2–4 weeks    | Let the system run; accounts gradually "come alive" — results start |
-
-:::note[Note]
-**Mastering the system** is not the same as **getting results**. You'll master it in 5 days, but accounts need 2–4 weeks of warm-up before numbers appear. Knowing this in advance saves the disappointment.
 :::
 
 ## Questions new customers often ask
@@ -60,8 +127,8 @@ Yes. The 5-day roadmap is written for complete beginners — one thing a day, no
 **What if I get stuck?**
 Open [Look up by symptom](/en/tra-cuu-theo-trieu-chung) first. Still stuck? [Message WhatsApp support](/en/lien-he-ho-tro) using the template — send all 5 items and you'll be helped in one reply.
 
-**Do I need to buy anything else?**
-Besides the box and package you already bought: **accounts + proxies** (third-party), a **vilao.ai API key** (~50,000 VND, for automated commenting), and a **UPS** if you want the system to survive a power blink. Details in [Day 0](/en/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi).
+**What is the HDSD?**
+It is the full 141-page **User Manual** that ships with the hardware. This site teaches *the order and the why*; the HDSD is the detailed reference. "HDSD p. 30" means open page 30 of that manual.
 
 **Can I run this on a wifi laptop?**
 Yes, if you use a **GenRouter H3000**. If you use a **mini PC**, you must connect over **LAN** — a laptop without an Ethernet port needs a USB-to-LAN adapter. See the "How to connect the control PC" table in [Day 0](/en/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi).

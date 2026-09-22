@@ -1,16 +1,95 @@
 ---
 title: "Bắt đầu · Onboarding khách hàng"
-description: "Trang đầu tiên cho khách mới nhận GenFarmer BoxPhone. Checklist 5 phút để biết mình đang ở đâu, đọc gì tiếp theo và liên hệ ai khi cần."
+description: "Trang đầu tiên cho khách mới nhận GenFarmer BoxPhone. Hệ thống làm gì cho bạn, bạn cần bỏ ra gì, rủi ro cần biết, và checklist 5 phút để bắt đầu đúng chỗ."
 ---
 
-import { CardGrid, LinkCard } from '@astrojs/starlight/components';
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
 
-Chào mừng bạn đến với **GenFarmer**! Trang này dành cho khách mới nhận hàng — chỉ cần **5 phút** để định vị đúng chỗ và biết rõ 5 ngày kế tiếp bạn sẽ làm gì.
+Chào mừng bạn đến với **GenFarmer**! Trang này dành cho khách mới — kể cả khi bạn **chưa rành công nghệ** hoặc **chưa biết gì về hệ thống**. Đọc hết mất khoảng 10 phút; sau đó bạn biết mình mua gì, cần chuẩn bị gì, và bắt đầu từ đâu.
 
 <p align="center">
   <a href="/vi/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi" class="button primary">Bắt đầu Ngày 0 →</a>
   <a href="https://youtu.be/dWUFV9oCnL0" class="button secondary">Xem video hướng dẫn</a>
 </p>
+
+## Hệ thống này làm gì cho bạn?
+
+Đọc 60 giây — để biết mình đang có gì và nó đem lại gì, trước khi đụng vào máy.
+
+<CardGrid>
+  <Card title="Bạn có gì trong tay" icon="laptop">
+    Một **box chứa 20 điện thoại**, một **bộ định tuyến** (GenRouter H3000 hoặc mini PC) cấp cho mỗi máy một đường internet riêng, và **phần mềm GenFarmer** trên máy tính để điều khiển cả 20 máy cùng lúc.
+  </Card>
+  <Card title="Nó tự làm gì thay bạn" icon="setting">
+    Mỗi máy chạy **một tài khoản riêng trên một đường mạng riêng** — giống 20 người thật ở 20 nơi khác nhau. Kịch bản tự động **đăng nhập, nuôi tài khoản, đẩy tương tác** theo lịch, kể cả khi bạn đi ngủ. Dùng cho TikTok, Facebook, Instagram, X, Spotify.
+  </Card>
+  <Card title="Bạn nhận được gì" icon="rocket">
+    Sau **5 ngày** bạn tự vận hành được hệ thống, không cần hỏi ai. Sau **2–4 tuần nuôi**, tài khoản "sống" ổn định — từ lúc đó mới dùng được cho mục tiêu của bạn trên từng nền tảng (xem Ngày 4–5).
+  </Card>
+</CardGrid>
+
+## Bạn cần bỏ ra gì: tiền · thời gian · người
+
+### Tiền — những khoản ngoài box
+
+Box và gói bạn đã mua **chưa phải là tất cả**. Bảng này gom mọi khoản còn lại để bạn lo trước khi hàng về, khỏi kẹt giữa chừng.
+
+| Khoản mục | Bắt buộc? | Chi phí | Lo ở đâu |
+| --- | --- | --- | --- |
+| **Máy tính điều khiển** (laptop hoặc PC) | Bắt buộc | Dùng máy sẵn có | Có sẵn |
+| **Mạng có dây** + 1 cổng trống trên modem | Bắt buộc | 0 ₫ | Có sẵn |
+| **Ổ cắm 3 chấu riêng**, không chung với điều hoà, máy giặt | Bắt buộc | Vài chục nghìn nếu chưa có | Cửa hàng điện |
+| **Tài khoản mạng xã hội** — 5 cái để chạy thử, sau đó lên 20 | Bắt buộc | Xem hộp "cần điền" bên dưới | Bên thứ ba — chọn nguồn uy tín |
+| **Proxy** — 5 cái để chạy thử, sau đó lên 20 (mỗi máy 1 proxy riêng) | Bắt buộc | Xem hộp "cần điền" bên dưới | Bên thứ ba — chọn nguồn uy tín |
+| **API key vilao.ai** (cho bình luận tự động) | Nếu dùng bình luận tự động | ~50.000 ₫ (phí ~2%) | [vilao.ai/console](https://vilao.ai/console) |
+| **Bộ lưu điện (UPS) từ 1.000VA** | Nên có — tránh sập giữa chừng khi mất điện | Xem hộp "cần điền" bên dưới | Cửa hàng điện |
+| **Dây LAN Cat6** | Chỉ khi dùng mini PC | Vài chục nghìn | Cửa hàng máy tính |
+| **Cổng chuyển USB-to-LAN / Type-C-to-LAN** | Chỉ khi laptop không có cổng Ethernet | Khoảng 100.000–200.000 ₫ | Cửa hàng máy tính |
+| **Điện thoại quay video mở hộp** | Bắt buộc — là bằng chứng bảo hành | 0 ₫ | Có sẵn |
+
+:::tip[Mẹo tiết kiệm]
+Chỉ mua **5 tài khoản + 5 proxy** để chạy thử trước. Chạy ổn rồi mới mua đủ 20. Đừng mua 20 ngay từ đầu.
+:::
+
+### Thời gian
+
+| Giai đoạn | Thời gian | Bạn làm gì |
+| --- | --- | --- |
+| **Onboarding (trang này)** | 10 phút | Hiểu hệ thống, lo chi phí, lưu số hỗ trợ, vào nhóm |
+| **Ngày 0 — Chuẩn bị** | 1–2 tiếng | Sắp chỗ đặt box, mua tài khoản/proxy thử, quay video mở hộp |
+| **Ngày 1 → 5 — Lộ trình** | 5 ngày | Mỗi ngày trả lời đúng 1 câu hỏi, có tiêu chí "Xong khi" rõ ràng |
+| **Nuôi tài khoản** | 2–4 tuần | Để hệ thống tự chạy; mỗi sáng kiểm tra một lượt |
+
+:::note[Hai mốc khác nhau]
+**Làm chủ hệ thống** (5 ngày) không phải **ra kết quả** (2–4 tuần). Biết trước hai mốc này sẽ đỡ hụt hẫng — và đừng đổi cấu hình liên tục trong lúc chờ.
+:::
+
+### Người — ai làm việc gì
+
+Một người làm hết cũng được. Nếu doanh nghiệp có hai người, chia như sau:
+
+* **Chủ doanh nghiệp** — quyết định mua tài khoản/proxy từ nguồn nào, chọn nền tảng và lĩnh vực (Ngày 4–5), đọc mục *Rủi ro* bên dưới, giữ video mở hộp.
+* **Người vận hành** — làm lộ trình 5 ngày, kiểm tra hệ thống mỗi sáng, nhắn hỗ trợ theo mẫu khi kẹt.
+
+## Rủi ro cần biết trước
+
+Nói thẳng để bạn không bất ngờ. Mỗi rủi ro đều có cách giảm, và tài liệu sẽ chỉ đúng chỗ.
+
+* **Tài khoản có thể bị khoá** — hay gặp nhất khi nhiều máy dùng chung một proxy, hoặc cài sai ở Ngày 2. *Giảm bằng:* mỗi máy một proxy riêng, làm đúng thứ tự Ngày 2, chạy thử 5 trước khi lên 20.
+* **Số không tăng trong 2–4 tuần đầu là bình thường** — tài khoản cần thời gian "sống". *Giảm bằng:* đừng đổi cấu hình liên tục; chọn đúng lĩnh vực ở Ngày 4–5.
+* **Nóng và điện** — đặt box trong tủ kín thì máy tự giảm hiệu năng; cắm chung ổ với thiết bị công suất lớn thì sập giữa chừng. *Giảm bằng:* chỗ thoáng, ổ cắm riêng, có UPS.
+* **Cài nhầm app** — tải theo link trong bản HDSD cũ sẽ ra app khác. *Giảm bằng:* chỉ dùng thư mục APK chính thức ở Ngày 2.
+* **Bảo hành phần cứng** — không có video mở hộp thì khó chứng minh lỗi từ nhà sản xuất. *Giảm bằng:* quay video **trước khi bóc tem**, giữ nguyên tem.
+* **Tài khoản và proxy là chi phí của bạn**, mua từ bên thứ ba — hãy chọn nguồn uy tín và bắt đầu nhỏ.
+
+:::caution[Cần GenFarmer điền trước khi công bố]
+Các số liệu dưới đây chưa có trong tài liệu gốc, tôi không tự đặt. Điền xong thì xoá hộp này.
+* Giá tham khảo **tài khoản** và **proxy** theo nguồn khuyên dùng
+* Giá **bộ lưu điện** khuyên dùng
+* **Giờ làm việc** của hỗ trợ kỹ thuật (hiện ghi "đang cập nhật")
+* **Chính sách khi tài khoản bị khoá**: ai chịu chi phí, có hỗ trợ thay không
+* (Tuỳ chọn) **Kết quả điển hình sau 4 tuần** để khách hình dung
+:::
 
 ## Bạn đang ở đâu trong hành trình?
 
@@ -19,6 +98,7 @@ Chọn tình huống gần nhất — mỗi thẻ dẫn thẳng đến bước p
 <CardGrid>
   <LinkCard title="Tôi mới đặt hàng, chưa nhận box" href="/vi/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi" description="Đọc Ngày 0 — Chuẩn bị. 7 mục cần lo trước khi hàng về: chỗ đặt, điện, mạng, máy tính điều khiển, 5 tài khoản + 5 proxy thử, API key vilao.ai và điện thoại quay video mở hộp." />
   <LinkCard title="Box vừa về, chưa cắm điện" href="/vi/a2-lo-trinh-mot-tuan/a4-ngay-1-phan-cung" description="Quay video mở hộp trước khi bóc tem — bằng chứng bảo hành. Rồi vào Ngày 1 — Phần cứng để làm chủ 20 điện thoại." />
+  <LinkCard title="Lỡ cắm điện rồi, chưa quay video" href="/vi/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi" description="Không sao. Quay video ngay bây giờ, chụp thêm tem và số box. Rồi quay lại Ngày 0 rà nhanh 7 mục chuẩn bị trước khi sang Ngày 1." />
   <LinkCard title="Đã điều khiển được máy, chưa biết nuôi tài khoản" href="/vi/a2-lo-trinh-mot-tuan/a5-ngay-2-danh-tinh" description="Ngày 2 — Danh tính: proxy, tài khoản, GenFarmer Trust. Lớp quan trọng nhất để tài khoản không chết trong 24 giờ đầu." />
   <LinkCard title="Muốn hệ thống tự chạy khi tôi đi ngủ" href="/vi/a2-lo-trinh-mot-tuan/a6-ngay-3-tu-dong" description="Ngày 3 — Tự động: tải kịch bản từ Mini-App Store, cấu hình Schedule, kiểm tra sáng hôm sau." />
   <LinkCard title="Đang thấy lỗi trên màn hình" href="/vi/tra-cuu-theo-trieu-chung" description="Tra thẳng theo triệu chứng — 90% lỗi thường gặp có sẵn cách xử lý. Vẫn không được thì liên hệ hỗ trợ theo mẫu có sẵn." />
@@ -30,26 +110,13 @@ Bấm mở từng mục theo thứ tự. Xong mục nào tick mục đó — coi
 
 * [ ] **1. Lưu số WhatsApp hỗ trợ** — [+84 79 243 2905](https://wa.me/84792432905). Sao chép sẵn [mẫu tin nhắn hỗ trợ](/vi/lien-he-ho-tro#mẫu-tin-nhắn--copy-điền-gửi) để dùng khi cần.
 * [ ] **2. Vào nhóm khách hàng WhatsApp** — [tham gia tại đây](https://chat.whatsapp.com/J8bchy0IIwREeAI1z7Jmvo?mode=gi_t). Hỏi đáp nhanh, học kinh nghiệm từ người dùng khác.
-* [ ] **3. Bookmark trang này** — để lần sau mở lại tra cứu nhanh.
+* [ ] **3. Lo xong bảng chi phí ở trên** — ít nhất 5 tài khoản + 5 proxy, ổ cắm riêng, máy tính điều khiển.
 * [ ] **4. Xem [video hướng dẫn](https://youtu.be/dWUFV9oCnL0) một lượt** — 15 phút, giúp bạn hình dung tổng thể trước khi làm.
 * [ ] **5. Đọc [A1 · Bốn lớp hệ thống](/vi/a1-bon-lop-he-thong)** — 3 phút. Khi có sự cố, việc đầu tiên là biết hỏng ở lớp nào.
 * [ ] **6. Mở [Ngày 0 — Chuẩn bị](/vi/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi)** — bắt đầu lộ trình 5 ngày.
 
 :::tip[Mẹo]
 Đừng đọc hết một lượt rồi mới làm. Đọc **đến đâu làm đến đó** — mỗi trang chỉ nhắm 1 câu hỏi, và tiêu chí "Xong khi" ở cuối mỗi ngày cho bạn biết khi nào được sang ngày kế.
-:::
-
-## Bạn sẽ cần bao nhiêu thời gian?
-
-| Giai đoạn                     | Thời gian     | Bạn làm gì                                                                 |
-| ----------------------------- | ------------- | -------------------------------------------------------------------------- |
-| **Onboarding (trang này)**    | 5 phút        | Lưu số hỗ trợ, vào nhóm, xem video, chuẩn bị đọc                           |
-| **Ngày 0 — Chuẩn bị**         | 1–2 tiếng     | Sắp chỗ đặt box, mua tài khoản/proxy thử, quay video mở hộp                |
-| **Ngày 1 → 5 — Lộ trình**     | 5 ngày        | Mỗi ngày 1 câu hỏi, mỗi ngày 1 mục tiêu rõ ràng                            |
-| **Nuôi tài khoản**            | 2–4 tuần      | Để hệ thống chạy, tài khoản dần "sống"; đây mới là lúc bắt đầu có kết quả  |
-
-:::note[Ghi chú]
-**Làm chủ hệ thống** không phải **ra kết quả**. Bạn sẽ làm chủ được sau 5 ngày; nhưng cần 2–4 tuần nuôi tài khoản mới bắt đầu thấy số. Biết trước sẽ đỡ hụt hẫng.
 :::
 
 ## Câu hỏi khách mới hay hỏi
@@ -60,8 +127,8 @@ Bấm mở từng mục theo thứ tự. Xong mục nào tick mục đó — coi
 **Nếu kẹt giữa chừng thì sao?**
 Mở [Tra cứu theo triệu chứng](/vi/tra-cuu-theo-trieu-chung) trước. Nếu vẫn không xử lý được, [nhắn WhatsApp hỗ trợ](/vi/lien-he-ho-tro) theo mẫu có sẵn — gửi đủ 5 mục là được xử lý trong một lượt.
 
-**Tôi có cần mua thêm gì không?**
-Ngoài box và gói bạn đã mua, cần chuẩn bị thêm: **tài khoản + proxy** (mua bên thứ ba), **API key vilao.ai** (~50.000 VND, dùng cho bình luận tự động), và **bộ lưu điện** nếu muốn hệ thống không tắt đột ngột khi mất điện. Chi tiết ở [Ngày 0](/vi/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi).
+**HDSD là gì?**
+Là **Hướng dẫn sử dụng** đầy đủ 141 trang đi kèm máy. Tài liệu này dạy *trình tự và lý do*; HDSD là thư viện tra cứu chi tiết. Khi thấy "HDSD tr. 30" nghĩa là mở trang 30 của bản đó.
 
 **Có thể chạy trên laptop wifi không?**
 Được nếu bạn dùng **GenRouter H3000**. Nếu dùng **mini PC**, bắt buộc nối **LAN** — laptop không có cổng Ethernet cần cổng chuyển USB-to-LAN. Xem bảng "Cách nối máy tính điều khiển" ở [Ngày 0](/vi/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi).
