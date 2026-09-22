@@ -68,6 +68,7 @@ export default defineConfig({
             { slug: 'a2-lo-trinh-mot-tuan/a7-ngay-4-5-nen-tang' },
           ],
         },
+        { slug: 'nuoi-tai-khoan' },
         { slug: 'tra-cuu-theo-trieu-chung' },
         { slug: 'thuat-ngu' },
         { slug: 'lien-he-ho-tro' },
