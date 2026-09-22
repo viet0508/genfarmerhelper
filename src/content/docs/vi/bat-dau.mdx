@@ -3,6 +3,8 @@ title: "Bắt đầu · Onboarding khách hàng"
 description: "Trang đầu tiên cho khách mới nhận GenFarmer BoxPhone. Checklist 5 phút để biết mình đang ở đâu, đọc gì tiếp theo và liên hệ ai khi cần."
 ---
 
+import { CardGrid, LinkCard } from '@astrojs/starlight/components';
+
 Chào mừng bạn đến với **GenFarmer**! Trang này dành cho khách mới nhận hàng — chỉ cần **5 phút** để định vị đúng chỗ và biết rõ 5 ngày kế tiếp bạn sẽ làm gì.
 
 <p align="center">
@@ -12,27 +14,15 @@ Chào mừng bạn đến với **GenFarmer**! Trang này dành cho khách mới
 
 ## Bạn đang ở đâu trong hành trình?
 
-Chọn tình huống gần nhất — mỗi mục dẫn đến bước phù hợp:
+Chọn tình huống gần nhất — mỗi thẻ dẫn thẳng đến bước phù hợp:
 
-#### [Tôi mới đặt hàng, chưa nhận box](/vi/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi)
-
-Đọc **Ngày 0 — Chuẩn bị**. Có 7 mục cần lo trước khi hàng về: chỗ đặt, điện, mạng, máy tính điều khiển, 5 tài khoản + 5 proxy thử, API key vilao.ai và một chiếc điện thoại quay video mở hộp.
-
-#### [Box vừa về, chưa cắm điện](/vi/a2-lo-trinh-mot-tuan/a4-ngay-1-phan-cung)
-
-Nhớ **quay video mở hộp** trước khi bóc tem — đây là bằng chứng bảo hành. Sau đó vào **Ngày 1 — Phần cứng** để làm chủ 20 điện thoại.
-
-#### [Đã điều khiển được máy, chưa biết nuôi tài khoản](/vi/a2-lo-trinh-mot-tuan/a5-ngay-2-danh-tinh)
-
-Sang **Ngày 2 — Danh tính**: proxy, tài khoản, GenFarmer Trust. Đây là lớp quan trọng nhất để tài khoản không chết trong 24 giờ đầu.
-
-#### [Muốn hệ thống tự chạy khi tôi đi ngủ](/vi/a2-lo-trinh-mot-tuan/a6-ngay-3-tu-dong)
-
-Đọc **Ngày 3 — Tự động**: tải kịch bản từ Mini-App Store, cấu hình Schedule, kiểm tra sáng hôm sau.
-
-#### [Đang thấy lỗi trên màn hình](/vi/tra-cuu-theo-trieu-chung)
-
-Tra thẳng theo triệu chứng — 90% các lỗi thường gặp có sẵn cách xử lý. Vẫn không được thì [liên hệ hỗ trợ](/vi/lien-he-ho-tro) theo mẫu có sẵn.
+<CardGrid>
+  <LinkCard title="Tôi mới đặt hàng, chưa nhận box" href="/vi/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi" description="Đọc Ngày 0 — Chuẩn bị. 7 mục cần lo trước khi hàng về: chỗ đặt, điện, mạng, máy tính điều khiển, 5 tài khoản + 5 proxy thử, API key vilao.ai và điện thoại quay video mở hộp." />
+  <LinkCard title="Box vừa về, chưa cắm điện" href="/vi/a2-lo-trinh-mot-tuan/a4-ngay-1-phan-cung" description="Quay video mở hộp trước khi bóc tem — bằng chứng bảo hành. Rồi vào Ngày 1 — Phần cứng để làm chủ 20 điện thoại." />
+  <LinkCard title="Đã điều khiển được máy, chưa biết nuôi tài khoản" href="/vi/a2-lo-trinh-mot-tuan/a5-ngay-2-danh-tinh" description="Ngày 2 — Danh tính: proxy, tài khoản, GenFarmer Trust. Lớp quan trọng nhất để tài khoản không chết trong 24 giờ đầu." />
+  <LinkCard title="Muốn hệ thống tự chạy khi tôi đi ngủ" href="/vi/a2-lo-trinh-mot-tuan/a6-ngay-3-tu-dong" description="Ngày 3 — Tự động: tải kịch bản từ Mini-App Store, cấu hình Schedule, kiểm tra sáng hôm sau." />
+  <LinkCard title="Đang thấy lỗi trên màn hình" href="/vi/tra-cuu-theo-trieu-chung" description="Tra thẳng theo triệu chứng — 90% lỗi thường gặp có sẵn cách xử lý. Vẫn không được thì liên hệ hỗ trợ theo mẫu có sẵn." />
+</CardGrid>
 
 ## Checklist 5 phút cho khách mới
 
@@ -45,8 +35,8 @@ Bấm mở từng mục theo thứ tự. Xong mục nào tick mục đó — coi
 * [ ] **5. Đọc [A1 · Bốn lớp hệ thống](/vi/a1-bon-lop-he-thong)** — 3 phút. Khi có sự cố, việc đầu tiên là biết hỏng ở lớp nào.
 * [ ] **6. Mở [Ngày 0 — Chuẩn bị](/vi/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi)** — bắt đầu lộ trình 5 ngày.
 
-:::tip
-**Mẹo:** Đừng đọc hết một lượt rồi mới làm. Đọc **đến đâu làm đến đó** — mỗi trang chỉ nhắm 1 câu hỏi, và tiêu chí "Xong khi" ở cuối mỗi ngày cho bạn biết khi nào được sang ngày kế.
+:::tip[Mẹo]
+Đừng đọc hết một lượt rồi mới làm. Đọc **đến đâu làm đến đó** — mỗi trang chỉ nhắm 1 câu hỏi, và tiêu chí "Xong khi" ở cuối mỗi ngày cho bạn biết khi nào được sang ngày kế.
 :::
 
 ## Bạn sẽ cần bao nhiêu thời gian?
@@ -58,7 +48,7 @@ Bấm mở từng mục theo thứ tự. Xong mục nào tick mục đó — coi
 | **Ngày 1 → 5 — Lộ trình**     | 5 ngày        | Mỗi ngày 1 câu hỏi, mỗi ngày 1 mục tiêu rõ ràng                            |
 | **Nuôi tài khoản**            | 2–4 tuần      | Để hệ thống chạy, tài khoản dần "sống"; đây mới là lúc bắt đầu có kết quả  |
 
-:::note
+:::note[Ghi chú]
 **Làm chủ hệ thống** không phải **ra kết quả**. Bạn sẽ làm chủ được sau 5 ngày; nhưng cần 2–4 tuần nuôi tài khoản mới bắt đầu thấy số. Biết trước sẽ đỡ hụt hẫng.
 :::
 
@@ -83,4 +73,4 @@ Ngoài box và gói bạn đã mua, cần chuẩn bị thêm: **tài khoản + p
 * **Cộng đồng khách hàng** — [nhóm WhatsApp](https://chat.whatsapp.com/J8bchy0IIwREeAI1z7Jmvo?mode=gi_t)
 * **Sales — mua thêm gói automation** — [+84 97 123 46 01](https://wa.me/84971234601)
 
-<p align="center" style="margin-top:2rem"><a href="/vi/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi" class="button primary">Sẵn sàng — bắt đầu Ngày 0 →</a></p>
+<p align="center" class="gf-cta-bottom"><a href="/vi/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi" class="button primary">Sẵn sàng — bắt đầu Ngày 0 →</a></p>

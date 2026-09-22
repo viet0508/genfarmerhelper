@@ -8,6 +8,9 @@ export default defineConfig({
   // TODO: set this to your final domain before deploying (e.g. https://docs.genfarmer.com)
   site: 'https://genfarmer-support.pages.dev',
 
+  // Root lands on the Vietnamese edition; the language switcher covers the rest.
+  redirects: { '/': '/vi/' },
+
   integrations: [
     // Renders ```mermaid code blocks as real diagrams. Must come before starlight.
     mermaid({ theme: 'default', autoTheme: true }),
@@ -31,10 +34,13 @@ export default defineConfig({
           tag: 'link',
           attrs: {
             rel: 'stylesheet',
-            href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap',
+            href: 'https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap',
           },
         },
       ],
+      components: {
+        PageFrame: './src/components/PageFrame.astro',
+      },
       defaultLocale: 'en',
       locales: {
         en: { label: 'English', lang: 'en' },

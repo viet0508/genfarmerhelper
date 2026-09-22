@@ -3,6 +3,8 @@ title: "はじめに · お客様オンボーディング"
 description: "GenFarmer BoxPhone を受け取ったばかりのお客様向けの最初のページ。5分で現在地・次に読むべきもの・連絡先が分かるチェックリスト。"
 ---
 
+import { CardGrid, LinkCard } from '@astrojs/starlight/components';
+
 **GenFarmer** へようこそ！このページは box を受け取ったばかりのお客様向けです。**5分**あれば現在地を把握し、これから5日間で何をするか正確に分かります。
 
 <p align="center">
@@ -12,27 +14,15 @@ description: "GenFarmer BoxPhone を受け取ったばかりのお客様向け�
 
 ## いまどの段階にいますか?
 
-近い状況を選んでください — 各項目が適切なステップにつながります。
+近い状況を選んでください — 各カードが適切なステップにつながります。
 
-#### [注文したばかり、まだ box は届いていない](/ja/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi)
-
-**Day 0 — 準備** を読みます。box が届く前に整えておく7項目:設置場所、電源、ネットワーク、コントロール PC、テスト用アカウント5個 + プロキシ5個、vilao.ai の API キー、開封動画を撮る電話。
-
-#### [box が届いた、まだ電源を入れていない](/ja/a2-lo-trinh-mot-tuan/a4-ngay-1-phan-cung)
-
-封を切る前に **開封動画** を撮ってください — 保証の証拠になります。その後、**Day 1 — ハードウェア** に進み、電話20台をコントロールできるようにします。
-
-#### [電話は動かせるが、アカウントの育て方が分からない](/ja/a2-lo-trinh-mot-tuan/a5-ngay-2-danh-tinh)
-
-**Day 2 — アイデンティティ** に進みます:プロキシ、アカウント、GenFarmer Trust。これは最重要レイヤーで、24 時間で死ぬアカウントと生き残るアカウントの差はここに出ます。
-
-#### [自分が寝ている間もシステムを動かしたい](/ja/a2-lo-trinh-mot-tuan/a6-ngay-3-tu-dong)
-
-**Day 3 — 自動化** を読みます:Mini-App Store からシナリオをダウンロード、Schedule を設定、朝に確認。
-
-#### [画面にエラーが出ている](/ja/tra-cuu-theo-trieu-chung)
-
-症状から調べてください — よくある問題の9割は対処法があります。それでも解決しない場合は、[サポートに連絡](/ja/lien-he-ho-tro) — 定型テンプレートがあります。
+<CardGrid>
+  <LinkCard title="注文したばかり、まだ box は届いていない" href="/ja/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi" description="Day 0 — 準備 を読みます。box が届く前に整えておく7項目: 設置場所、電源、ネットワーク、コントロール PC、テスト用アカウント5個 + プロキシ5個、vilao.ai の API キー、開封動画を撮る電話。" />
+  <LinkCard title="box が届いた、まだ電源を入れていない" href="/ja/a2-lo-trinh-mot-tuan/a4-ngay-1-phan-cung" description="封を切る前に開封動画を撮ってください — 保証の証拠になります。その後、Day 1 — ハードウェア に進み、電話20台をコントロールできるようにします。" />
+  <LinkCard title="電話は動かせるが、アカウントの育て方が分からない" href="/ja/a2-lo-trinh-mot-tuan/a5-ngay-2-danh-tinh" description="Day 2 — アイデンティティ: プロキシ、アカウント、GenFarmer Trust。最重要レイヤーで、24 時間で死ぬアカウントと生き残るアカウントの差はここに出ます。" />
+  <LinkCard title="自分が寝ている間もシステムを動かしたい" href="/ja/a2-lo-trinh-mot-tuan/a6-ngay-3-tu-dong" description="Day 3 — 自動化: Mini-App Store からシナリオをダウンロード、Schedule を設定、朝に確認。" />
+  <LinkCard title="画面にエラーが出ている" href="/ja/tra-cuu-theo-trieu-chung" description="症状から調べてください — よくある問題の9割は対処法があります。それでも解決しない場合は、定型テンプレートでサポートに連絡。" />
+</CardGrid>
 
 ## 新規のお客様のための5分チェックリスト
 
@@ -45,8 +35,8 @@ description: "GenFarmer BoxPhone を受け取ったばかりのお客様向け�
 * [ ] **5. [A1 · 4つのレイヤー](/ja/a1-bon-lop-he-thong) を読む** — 3分。何かが壊れた時、まずどのレイヤーが壊れたかを知ります。
 * [ ] **6. [Day 0 — 準備](/ja/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi) を開く** — 5日間のロードマップを開始。
 
-:::tip
-**ヒント:** 全部読んでから始めないでください。**進みながら読む** — 各ページは1つの問いに絞られており、各日の最後にある「完了条件」で次に進んでいいかが分かります。
+:::tip[ヒント]
+全部読んでから始めないでください。**進みながら読む** — 各ページは1つの問いに絞られており、各日の最後にある「完了条件」で次に進んでいいかが分かります。
 :::
 
 ## どのくらい時間がかかりますか?
@@ -56,9 +46,9 @@ description: "GenFarmer BoxPhone を受け取ったばかりのお客様向け�
 | **オンボーディング (このページ)**   | 5分            | サポート保存、グループ参加、動画視聴、読む準備                          |
 | **Day 0 — 準備**                    | 1〜2 時間      | 設置場所、テスト用アカウント/プロキシ購入、開封動画撮影                 |
 | **Day 1 → 5 — ロードマップ**        | 5 日           | 1日1問、1日1目標                                                        |
-| **アカウントウォームアップ**        | 2〜4 週間      | システムを動かし続ける;アカウントが徐々に「生きる」 — 結果が出始める    |
+| **アカウントウォームアップ**        | 2〜4 週間      | システムを動かし続ける; アカウントが徐々に「生きる」 — 結果が出始める   |
 
-:::note
+:::note[メモ]
 **システムをマスターすること** と **結果を出すこと** は別です。マスターは5日でできますが、数字が出るにはアカウントを 2〜4 週間ウォームアップする必要があります。先に知っておくとがっかりせずに済みます。
 :::
 
@@ -71,7 +61,7 @@ description: "GenFarmer BoxPhone を受け取ったばかりのお客様向け�
 まず [症状から検索](/ja/tra-cuu-theo-trieu-chung) を開いてください。それでもダメなら、テンプレートを使って [WhatsApp サポートにメッセージ](/ja/lien-he-ho-tro) — 5項目を送れば一度の返信で解決します。
 
 **他に買うものはありますか?**
-box と購入したパッケージに加えて:**アカウント + プロキシ**(サードパーティ)、**vilao.ai の API キー**(約50,000 VND、自動コメント用)、停電に耐えたい場合は **UPS**。詳細は [Day 0](/ja/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi)。
+box と購入したパッケージに加えて: **アカウント + プロキシ**(サードパーティ)、**vilao.ai の API キー**(約50,000 VND、自動コメント用)、停電に耐えたい場合は **UPS**。詳細は [Day 0](/ja/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi)。
 
 **wifi のノート PC で動かせますか?**
 **GenRouter H3000** を使う場合は可能です。**mini PC** の場合は **LAN** 接続が必須 — Ethernet ポートのないノート PC には USB-to-LAN アダプタが必要です。[Day 0](/ja/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi) の「コントロール PC の接続方法」表を参照。
@@ -83,4 +73,4 @@ box と購入したパッケージに加えて:**アカウント + プロキシ*
 * **顧客コミュニティ** — [WhatsApp グループ](https://chat.whatsapp.com/J8bchy0IIwREeAI1z7Jmvo?mode=gi_t)
 * **セールス — 追加のオートメーションパッケージ** — [+84 97 123 46 01](https://wa.me/84971234601)
 
-<p align="center" style="margin-top:2rem"><a href="/ja/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi" class="button primary">準備完了 — Day 0 を始める →</a></p>
+<p align="center" class="gf-cta-bottom"><a href="/ja/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi" class="button primary">準備完了 — Day 0 を始める →</a></p>

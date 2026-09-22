@@ -3,6 +3,8 @@ title: "Start here · Customer onboarding"
 description: "First page for new GenFarmer BoxPhone customers. A 5-minute checklist to know where you are, what to read next, and who to contact."
 ---
 
+import { CardGrid, LinkCard } from '@astrojs/starlight/components';
+
 Welcome to **GenFarmer**! This page is for customers who just received a box — it takes **5 minutes** to get oriented and know exactly what the next five days look like.
 
 <p align="center">
@@ -12,27 +14,15 @@ Welcome to **GenFarmer**! This page is for customers who just received a box —
 
 ## Where are you in the journey?
 
-Pick the situation closest to yours — each links to the right step:
+Pick the situation closest to yours — each card links to the right step:
 
-#### [I just ordered, haven't received the box yet](/en/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi)
-
-Read **Day 0 — Preparation**. Seven things to line up before the box arrives: placement, power, network, control PC, 5 test accounts + 5 proxies, a vilao.ai API key, and a phone to film the unboxing.
-
-#### [Box just arrived, not powered on yet](/en/a2-lo-trinh-mot-tuan/a4-ngay-1-phan-cung)
-
-**Film the unboxing** before breaking the seal — it's your warranty proof. Then start **Day 1 — Hardware** and learn to control 20 phones.
-
-#### [I can control the phones but don't know how to raise accounts](/en/a2-lo-trinh-mot-tuan/a5-ngay-2-danh-tinh)
-
-Move to **Day 2 — Identity**: proxies, accounts, GenFarmer Trust. This is the most important layer — the difference between accounts that die in 24 hours and ones that live.
-
-#### [I want the system to run while I sleep](/en/a2-lo-trinh-mot-tuan/a6-ngay-3-tu-dong)
-
-Read **Day 3 — Automation**: download scenarios from the Mini-App Store, configure Schedule, check it in the morning.
-
-#### [I'm seeing an error on screen](/en/tra-cuu-theo-trieu-chung)
-
-Look it up by symptom — 90% of common issues already have a fix. Still stuck? [Contact support](/en/lien-he-ho-tro) with the ready-made message template.
+<CardGrid>
+  <LinkCard title="I just ordered, haven't received the box yet" href="/en/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi" description="Read Day 0 — Preparation. Seven things to line up before the box arrives: placement, power, network, control PC, 5 test accounts + 5 proxies, a vilao.ai API key, and a phone to film the unboxing." />
+  <LinkCard title="Box just arrived, not powered on yet" href="/en/a2-lo-trinh-mot-tuan/a4-ngay-1-phan-cung" description="Film the unboxing before breaking the seal — it is your warranty proof. Then start Day 1 — Hardware and learn to control 20 phones." />
+  <LinkCard title="I can control the phones but don't know how to raise accounts" href="/en/a2-lo-trinh-mot-tuan/a5-ngay-2-danh-tinh" description="Day 2 — Identity: proxies, accounts, GenFarmer Trust. The most important layer — the difference between accounts that die in 24 hours and ones that live." />
+  <LinkCard title="I want the system to run while I sleep" href="/en/a2-lo-trinh-mot-tuan/a6-ngay-3-tu-dong" description="Day 3 — Automation: download scenarios from the Mini-App Store, configure Schedule, check it in the morning." />
+  <LinkCard title="I'm seeing an error on screen" href="/en/tra-cuu-theo-trieu-chung" description="Look it up by symptom — 90% of common issues already have a fix. Still stuck? Contact support with the ready-made template." />
+</CardGrid>
 
 ## 5-minute checklist for new customers
 
@@ -45,8 +35,8 @@ Tick each item in order. When they're all checked, consider yourself "onboarded"
 * [ ] **5. Read [A1 · The four layers](/en/a1-bon-lop-he-thong)** — 3 min. When something breaks, the first step is knowing which layer is broken.
 * [ ] **6. Open [Day 0 — Preparation](/en/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi)** — start the 5-day roadmap.
 
-:::tip
-**Tip:** don't read everything before starting. Read **as you go** — each page targets one question, and the "Done when" criterion at the bottom of each day tells you when you may move on.
+:::tip[Tip]
+Don't read everything before starting. Read **as you go** — each page targets one question, and the "Done when" criterion at the bottom of each day tells you when you may move on.
 :::
 
 ## How long will this take?
@@ -58,7 +48,7 @@ Tick each item in order. When they're all checked, consider yourself "onboarded"
 | **Day 1 → 5 — Roadmap**           | 5 days       | One question a day, one clear target a day                          |
 | **Account warm-up**               | 2–4 weeks    | Let the system run; accounts gradually "come alive" — results start |
 
-:::note
+:::note[Note]
 **Mastering the system** is not the same as **getting results**. You'll master it in 5 days, but accounts need 2–4 weeks of warm-up before numbers appear. Knowing this in advance saves the disappointment.
 :::
 
@@ -83,4 +73,4 @@ Yes, if you use a **GenRouter H3000**. If you use a **mini PC**, you must connec
 * **Customer community** — [WhatsApp group](https://chat.whatsapp.com/J8bchy0IIwREeAI1z7Jmvo?mode=gi_t)
 * **Sales — additional automation packages** — [+84 97 123 46 01](https://wa.me/84971234601)
 
-<p align="center" style="margin-top:2rem"><a href="/en/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi" class="button primary">Ready — start Day 0 →</a></p>
+<p align="center" class="gf-cta-bottom"><a href="/en/a2-lo-trinh-mot-tuan/a3-ngay-0-chuan-bi" class="button primary">Ready — start Day 0 →</a></p>
