@@ -252,9 +252,25 @@ h1, .sl-markdown-content h1 {
   border-bottom: 2px solid rgba(15, 37, 69, 0.85);
   margin-bottom: 0.4rem;
 }
-/* Starlight wraps headings in .sl-heading-wrapper; tighten the gap to the next block */
-.sl-markdown-content .sl-heading-wrapper + * { margin-top: 0.85rem; }
+/* Starlight wraps headings (+ their "#" anchor link) in .sl-heading-wrapper.
+   Keep the anchor on the same line as the heading and put all vertical
+   spacing on the wrapper, so nothing collapses or doubles. */
+.sl-markdown-content .sl-heading-wrapper {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4em;
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
 .sl-markdown-content .sl-heading-wrapper.level-h2 { margin-top: 2.4rem; }
+.sl-markdown-content .sl-heading-wrapper.level-h4 { margin-top: 1.5rem; }
+.sl-markdown-content .sl-heading-wrapper > :is(h1, h2, h3, h4, h5, h6) {
+  flex: 1 1 auto;
+  min-width: 0;
+  margin-top: 0;
+}
+.sl-markdown-content .sl-anchor-link { align-self: center; line-height: 1; }
+.sl-markdown-content .sl-heading-wrapper + * { margin-top: 0.85rem; }
 .gf-cta-bottom { margin-top: 2rem; }
 :root[data-theme='dark'] .sl-markdown-content h2 { border-bottom-color: rgba(255, 255, 255, 0.55); }
 .sl-markdown-content h3 {
