@@ -43,6 +43,8 @@ Nếu muốn tiết kiệm để thử thì 5 tài khoản chia cho 2–3 proxy 
 
 ### Gán proxy cho từng máy, bật Isolate Mode
 
+<figure><img src="/images/sc-genrouter.jpg" alt="Bảng GenRouter" loading="lazy" /><figcaption>Bảng GenRouter tại 192.168.5.1:9000: gán mỗi máy một proxy riêng, rồi bật Isolate Mode.</figcaption></figure>
+
 Vào bảng điều khiển GenRouter tại `192.168.5.1:9000`, gán proxy cho từng máy, bật **Isolate Mode**.
 
 :::note
@@ -70,6 +72,8 @@ Làm chậm, quan sát từng bước.
 :::
 
 ### Tạo bảng tài khoản trong Account Manager
+
+<figure><img src="/images/sc-account-manager.jpg" alt="Account Manager" loading="lazy" /><figcaption>Account Manager: mỗi dòng một tài khoản, gán đúng thiết bị cho từng dòng.</figcaption></figure>
 
 Chỉ làm khi 1–2 tài khoản ở bước trên ổn. _HDSD tr. 10–11_
 

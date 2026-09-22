@@ -33,17 +33,23 @@ La app de la plataforma se instaló el [Día 2 · paso 3](/es/a2-lo-trinh-mot-tu
 
 ### Descarga el paquete de automatización de tu plataforma
 
+<figure><img src="/images/sc-store.jpg" alt="Mini-App Store" loading="lazy" /><figcaption>Mini-App Store: elige el paquete de automatización de tu plataforma y descárgalo.</figcaption></figure>
+
 Entra en **Store**, búscalo y descárgalo. Incluye video tutorial — mira la [lista de reproducción de videos de GenFarmer](https://www.youtube.com/watch?v=dWUFV9oCnL0\&list=PLDKj59ZxjjPzvYAxEBUXjYxkUAG624lBu\&index=10). _HDSD pág. 18–20 · 52–55 · 80–83_
 
 ### Descarga las tres herramientas de la plataforma
 
 **Auto Login**, **Trust** y **Boost**. _HDSD pág. 21–24 · 56–59 · 84–88_
 
+<figure><img src="/images/13-a6-hop-genfarmer-trust.jpg" alt="Caja GenFarmer Trust" loading="lazy" /><figcaption>GenFarmer Trust — el paquete para calentar cuentas. Al final del Día 3 activas Trust en las 5 cuentas.</figcaption></figure>
+
 ### Abre la pantalla Account Manager
 
 Aquí eliges qué cuenta ejecuta qué script. El Día 2 usaste esta pantalla para guardar las cuentas; hoy la usas para **dar órdenes**.
 
 ### Ejecuta Auto Login solo en las 5 cuentas que ya tienes
+
+<figure><img src="/images/sc-automation-tools.jpg" alt="Setup Automation" loading="lazy" /><figcaption>Setup Automation: selecciona exactamente las 5 cuentas que ya tienes y ejecuta Auto Login.</figcaption></figure>
 
 Todavía no amplíes.
 
@@ -52,6 +58,8 @@ Todavía no amplíes.
 Déjalo funcionar toda la noche.
 
 ### Revisa a la mañana siguiente
+
+<figure><img src="/images/sc-schedules.jpg" alt="Pantalla Schedules" loading="lazy" /><figcaption>La pantalla Schedules: a la mañana siguiente, comprueba que los horarios de anoche corrieron completos.</figcaption></figure>
 
 Si las 5 siguen vivas, compra más hasta llegar a 20 y ejecuta Auto Login y Trust en los 20 teléfonos.
 

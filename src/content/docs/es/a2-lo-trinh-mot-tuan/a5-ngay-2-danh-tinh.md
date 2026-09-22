@@ -43,6 +43,8 @@ Si quieres ahorrar para probar, puedes repartir 5 cuentas entre 2–3 proxies, p
 
 ### Asigna un proxy a cada teléfono y activa el Isolate Mode
 
+<figure><img src="/images/sc-genrouter.jpg" alt="Panel GenRouter" loading="lazy" /><figcaption>El panel GenRouter en 192.168.5.1:9000: da a cada teléfono su propio proxy y activa el Isolate Mode.</figcaption></figure>
+
 Entra al panel de control de GenRouter en `192.168.5.1:9000`, asigna un proxy a cada teléfono y activa el **Isolate Mode**.
 
 :::note
@@ -70,6 +72,8 @@ Este es el paso más importante de toda la semana: la automatización solo repet
 :::
 
 ### Crea la tabla de cuentas en Account Manager
+
+<figure><img src="/images/sc-account-manager.jpg" alt="Account Manager" loading="lazy" /><figcaption>Account Manager: una fila por cuenta, con el dispositivo correcto asignado a cada una.</figcaption></figure>
 
 Hazlo solo cuando las 1–2 cuentas del paso anterior estén estables. _HDSD pág. 10–11_
 

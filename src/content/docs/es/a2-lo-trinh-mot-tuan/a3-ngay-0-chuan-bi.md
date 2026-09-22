@@ -9,6 +9,8 @@ Hazlo antes de que llegue el pedido. Los tres primeros días son los más emocio
 >
 > Aún no hace falta enchufar nada. Solo necesitas tener listos los puntos de abajo antes de empezar el Día 1.
 
+<figure><img src="/images/09-a3-tu-boxphone.jpg" alt="Gabinete boxphone GenFarmer" loading="lazy" /><figcaption>Un gabinete boxphone real. Ponlo en un lugar ventilado, a unos 10 cm de la pared, en un enchufe propio.</figcaption></figure>
+
 **Lugar para el box + corriente independiente → Red por cable + PC de control → Comprar cuentas + proxies de prueba → Grabar el video de desembalaje**
 
 ## Preparación
@@ -32,6 +34,8 @@ Hazlo antes de que llegue el pedido. Los tres primeros días son los más emocio
 :::caution
 En el Manual de usuario (HDSD), _pág. 30–39_, la sección de la API key todavía dice **"Apple Key"** / Gemini — es la versión antigua. Actualmente el sistema usa la **API de vilao.ai**; sigue las instrucciones de esta página.
 :::
+
+<figure><img src="/images/10-a3-mini-pc.jpg" alt="Mini PC GenRouter" loading="lazy" /><figcaption>El mini PC GenRouter. Con mini PC debes conectar el PC por cable LAN.</figcaption></figure>
 
 ## Listo cuando
 

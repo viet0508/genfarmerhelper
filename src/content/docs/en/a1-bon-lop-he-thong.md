@@ -7,25 +7,25 @@ Read this page first. When something goes wrong, the first thing to do is not to
 
 #### LAYER 1 · Boxphone
 
-![LAYER 1 · Boxphone](/images/layer1-boxphone.jpg)
+![LAYER 1 · Boxphone](/images/05-a1-lop1-boxphone.jpg)
 
 This is the hardware you bought from GenFarmer.
 
 #### LAYER 2 · Router
 
-![LAYER 2 · Router](/images/layer2-genrouter.jpg)
+![LAYER 2 · Router](/images/06-a1-lop2-genrouter-h3000.jpg)
 
 GenRouter gives each phone its own internet route, nothing shared. GenRouter H3000 serves 1 box; for 2 or more boxes, use a mini PC.
 
 #### LAYER 3 · Account + Proxy
 
-![LAYER 3 · Account + Proxy](/images/layer3-account-proxy.jpg)
+![LAYER 3 · Account + Proxy](/images/07-a1-lop3-router-va-minipc.jpg)
 
 This is what you need to prepare before launching your phone farm.
 
 #### LAYER 4 · Automation
 
-![LAYER 4 · Automation](/images/layer4-automation.jpg)
+![LAYER 4 · Automation](/images/08-a1-lop4-automation.jpg)
 
 Ready-made scripts for logging in, warming up accounts and boosting engagement, bundled by GenFarmer into packages. If you have not bought one yet, contact GenFarmer sales on WhatsApp [+84 97 123 46 01](https://wa.me/84971234601) or in the [customer community](https://chat.whatsapp.com/J8bchy0IIwREeAI1z7Jmvo?mode=gi_t). If you do not want automation, you can do everything by hand.
 

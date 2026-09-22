@@ -7,25 +7,25 @@ description: "Đọc trang này trước tiên. Khi có sự cố, việc đầu
 
 #### LỚP 1 · Boxphone
 
-![LỚP 1 · Boxphone](/images/layer1-boxphone.jpg)
+![LỚP 1 · Boxphone](/images/05-a1-lop1-boxphone.jpg)
 
 Đây là phần cứng bạn đã mua từ GenFarmer.
 
 #### LỚP 2 · Router
 
-![LỚP 2 · Router](/images/layer2-genrouter.jpg)
+![LỚP 2 · Router](/images/06-a1-lop2-genrouter-h3000.jpg)
 
 GenRouter cấp cho mỗi máy một đường ra internet riêng, không dùng chung. GenRouter H3000 dùng cho 1 box; từ 2 box trở lên dùng mini PC.
 
 #### LỚP 3 · Account + Proxy
 
-![LỚP 3 · Account + Proxy](/images/layer3-account-proxy.jpg)
+![LỚP 3 · Account + Proxy](/images/07-a1-lop3-router-va-minipc.jpg)
 
 Đây là thứ bạn cần chuẩn bị để khởi chạy dàn farm của mình.
 
 #### LỚP 4 · Automation
 
-![LỚP 4 · Automation](/images/layer4-automation.jpg)
+![LỚP 4 · Automation](/images/08-a1-lop4-automation.jpg)
 
 Các kịch bản tự động hoá đăng nhập, nuôi tài khoản, đẩy tương tác GenFarmer đã làm sẵn trong các gói package. Nếu bạn chưa mua, liên hệ sales GenFarmer qua WhatsApp [+84 97 123 46 01](https://wa.me/84971234601) hoặc [cộng đồng khách hàng](https://chat.whatsapp.com/J8bchy0IIwREeAI1z7Jmvo?mode=gi_t). Không muốn tự động thì có thể làm thủ công.
 

@@ -9,6 +9,8 @@ description: "Layer 1. Use the GenFarmer software at a basic level to get a feel
 >
 > Day 1: use the GenFarmer software at a basic level to get a feel for how it works.
 
+<figure><img src="/images/11-a4-dan-boxphone.jpg" alt="GenFarmer boxphone array" loading="lazy" /><figcaption>A real boxphone array. By the end of Day 1 you control all of it from one computer.</figcaption></figure>
+
 **Download the software → Set up the box + router → Use the software manually at a basic level**
 
 ## Steps
@@ -55,6 +57,8 @@ The HDSD shows three wiring diagrams side by side. Pick the one that matches the
 :::
 
 ### Use the GenFarmer software manually at a basic level
+
+<figure><img src="/images/12-a4-control-center.jpg" alt="Control Center screen" loading="lazy" /><figcaption>The Control Center: all 20 phones appear here. Click Scan to find phones, Active to activate them.</figcaption></figure>
 
 The **Control Center** section. _HDSD p. 4–7_
 

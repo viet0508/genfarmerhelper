@@ -9,6 +9,8 @@ Do this before the shipment arrives. The first three days are the most exciting;
 >
 > No need to plug anything in yet. Just have every item below ready before you start Day 1.
 
+<figure><img src="/images/09-a3-tu-boxphone.jpg" alt="GenFarmer boxphone cabinet" loading="lazy" /><figcaption>A real boxphone cabinet. Put it somewhere airy, about 10 cm from the wall, on its own outlet.</figcaption></figure>
+
 **A place for the box + a dedicated power supply → Wired network + a control computer → Accounts and trial proxies bought in advance → An unboxing video**
 
 ## Preparation
@@ -32,6 +34,8 @@ Do this before the shipment arrives. The first three days are the most exciting;
 :::caution
 In the User Manual (HDSD) (_p. 30–39_), the API key section still says **"Apple Key"** / Gemini — that is the old version. The system now uses the **vilao.ai API**; follow the instructions on this page instead.
 :::
+
+<figure><img src="/images/10-a3-mini-pc.jpg" alt="GenRouter mini PC" loading="lazy" /><figcaption>The GenRouter mini PC. With a mini PC you must connect the computer over a LAN cable.</figcaption></figure>
 
 ## Done when
 

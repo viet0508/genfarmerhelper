@@ -7,25 +7,25 @@ Lee esta página primero. Ante un problema, lo primero que debes hacer no es rep
 
 #### CAPA 1 · Boxphone
 
-![CAPA 1 · Boxphone](/images/layer1-boxphone.jpg)
+![CAPA 1 · Boxphone](/images/05-a1-lop1-boxphone.jpg)
 
 Es el hardware que compraste a GenFarmer.
 
 #### CAPA 2 · Router
 
-![CAPA 2 · Router](/images/layer2-genrouter.jpg)
+![CAPA 2 · Router](/images/06-a1-lop2-genrouter-h3000.jpg)
 
 GenRouter da a cada teléfono una salida a internet propia, no compartida. GenRouter H3000 sirve para 1 box; a partir de 2 boxes se usa un mini PC.
 
 #### CAPA 3 · Account + Proxy
 
-![CAPA 3 · Account + Proxy](/images/layer3-account-proxy.jpg)
+![CAPA 3 · Account + Proxy](/images/07-a1-lop3-router-va-minipc.jpg)
 
 Es lo que debes preparar para poner en marcha tu granja de teléfonos.
 
 #### CAPA 4 · Automation
 
-![CAPA 4 · Automation](/images/layer4-automation.jpg)
+![CAPA 4 · Automation](/images/08-a1-lop4-automation.jpg)
 
 Scripts automatizados para iniciar sesión, calentar cuentas e impulsar interacciones que GenFarmer ya tiene listos en sus paquetes. Si aún no los compraste, contacta a ventas de GenFarmer por WhatsApp [+84 97 123 46 01](https://wa.me/84971234601) o en la [comunidad de clientes](https://chat.whatsapp.com/J8bchy0IIwREeAI1z7Jmvo?mode=gi_t). Si no quieres automatizar, puedes hacerlo de forma manual.
 

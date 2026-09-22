@@ -5,6 +5,8 @@ description: "Para la segunda lectura — busca según lo que ves en pantalla y 
 
 La primera vez lees la documentación en orden. A partir de la segunda, buscas según lo que ves en pantalla. Esta tabla es para esa segunda vez.
 
+<figure><img src="/images/15-tra-cuu-giao-dien-phan-mem.jpg" alt="Pantalla Device" loading="lazy" /><figcaption>La pantalla Device del software. Busca según exactamente lo que ves aquí.</figcaption></figure>
+
 | Síntoma                                              | Capa          | Dónde abrir / qué hacer                                                                                                                                                                                                                                                                                                     |
 | ---------------------------------------------------- | ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Al pulsar **Scan** no aparece ningún teléfono        | 1 · EQUIPO    | _Manual de usuario (HDSD), pág. 4–8_ — revisa los dos rangos de direcciones y el botón **Active** ([A4 · paso 3](/es/a2-lo-trinh-mot-tuan/a4-ngay-1-phan-cung))                                                                                                                                                                 |

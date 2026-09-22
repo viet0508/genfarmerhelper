@@ -9,6 +9,8 @@ description: "レイヤー1。GenFarmer Software の基本操作を通じて、�
 >
 > 1日目：GenFarmer Software アプリの基本操作を通じて、ソフトウェアの動き方を体感します。
 
+<figure><img src="/images/11-a4-dan-boxphone.jpg" alt="GenFarmer boxphone の列" loading="lazy" /><figcaption>実際の boxphone の列。Day 1 の終わりには1台の PC からこれ全体を操作できます。</figcaption></figure>
+
 **ソフトウェアのダウンロード → Box + ルーターのセットアップ → ソフトウェアの基本的な手動操作**
 
 ## 手順
@@ -55,6 +57,8 @@ HDSD には3つの配線図が並んで載っています。上の表に従っ�
 :::
 
 ### GenFarmer Software を手動で基本操作する
+
+<figure><img src="/images/12-a4-control-center.jpg" alt="Control Center 画面" loading="lazy" /><figcaption>Control Center: 20台すべてがここに表示されます。Scan で端末を検索し、Active で有効化します。</figcaption></figure>
 
 **Control Center** の項目です。_HDSD p.4–7_
 

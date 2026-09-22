@@ -23,6 +23,8 @@ A partir de aquí cada quien sigue un camino distinto. **No necesitas leer las 1
 >
 > Estos dos días son para ganar soltura, no para aprender conceptos nuevos.
 
+<figure><img src="/images/14-a7-logo-nen-tang.jpg" alt="Logos de cuatro plataformas" loading="lazy" /><figcaption>Las cuatro plataformas con capítulo propio en el manual. Lee solo el de la plataforma que usas.</figcaption></figure>
+
 **Leer el capítulo de la plataforma → Configurar según tu nicho → Ejecutar un script de prueba → Reconocer las señales para detenerte**
 
 ## Pasos

@@ -9,6 +9,8 @@ description: "機材が届く前に済ませておきます。まだ電源を入
 >
 > まだ電源を入れる必要はありません。1日目を始める前に、以下の項目をすべて揃えておくだけです。
 
+<figure><img src="/images/09-a3-tu-boxphone.jpg" alt="GenFarmer boxphone キャビネット" loading="lazy" /><figcaption>実際の boxphone キャビネット。風通しの良い場所に、壁から約10 cm離し、専用コンセントに接続します。</figcaption></figure>
+
 **Box の設置場所 + 専用電源 → 有線ネットワーク + 操作用PC → アカウント + お試し用プロキシの事前購入 → 開封ビデオの撮影**
 
 ## 準備するもの
@@ -32,6 +34,8 @@ description: "機材が届く前に済ませておきます。まだ電源を入
 :::caution
 ユーザーマニュアル（HDSD）の _p.30–39_ では、API キーの箇所がまだ **「Apple Key」**／Gemini と記載されていますが、これは旧版の内容です。現在のシステムは **vilao.ai の API** を使用します。このページの手順に従ってください。
 :::
+
+<figure><img src="/images/10-a3-mini-pc.jpg" alt="GenRouter ミニPC" loading="lazy" /><figcaption>GenRouter ミニPC。ミニPCの場合は LAN ケーブルで PC を接続する必要があります。</figcaption></figure>
 
 ## 完了の目安
 

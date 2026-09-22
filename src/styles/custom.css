@@ -522,9 +522,78 @@ h1, .sl-markdown-content h1 {
 .pagination-links a:hover { transform: translateY(-2px); box-shadow: var(--gf-shadow); border-color: rgba(37, 99, 235, 0.35); }
 .pagination-links .link-title { color: var(--gf-ink); }
 
+/* ---------- home banner + video block ---------- */
+.gf-banner {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+  box-shadow: var(--gf-shadow-lg);
+  margin: 0.5rem 0 1.5rem;
+}
+.gf-video {
+  position: relative;
+  display: block;
+  margin: 0 0 1.75rem;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid var(--gf-glass-border);
+  box-shadow: var(--gf-shadow);
+  text-decoration: none;
+  transition: transform 0.2s var(--gf-ease), box-shadow 0.2s var(--gf-ease);
+}
+.gf-video:hover { transform: translateY(-3px); box-shadow: var(--gf-shadow-lg); }
+.gf-video img { display: block; width: 100%; height: auto; margin: 0; border-radius: 0; box-shadow: none; }
+.gf-video__play {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 72px; height: 72px;
+  display: flex; align-items: center; justify-content: center;
+  border-radius: 50%;
+  color: #fff;
+  background: linear-gradient(135deg, var(--gf-blue-2), var(--gf-blue-3));
+  box-shadow: 0 8px 24px rgba(37, 99, 235, 0.45);
+  transition: transform 0.2s var(--gf-ease);
+}
+.gf-video__play svg { margin-left: 4px; }
+.gf-video:hover .gf-video__play { transform: scale(1.08); }
+.gf-video__label {
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  padding: 0.7rem 1rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #fff;
+  background: linear-gradient(to top, rgba(15, 37, 69, 0.85), rgba(15, 37, 69, 0));
+}
+
+/* ---------- sidebar footer (wolf mark + edition) ---------- */
+.gf-sidebar-foot {
+  margin-top: auto;
+  padding: 1rem 0.25rem 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  border-top: 1px solid var(--gf-hair);
+  font-family: var(--sl-font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.02em;
+  color: var(--gf-muted-3);
+}
+.gf-sidebar-foot img { width: 40px; height: auto; opacity: 0.9; }
+
 /* ---------- figures / images / diagrams ---------- */
 .sl-markdown-content img { border-radius: 14px; box-shadow: var(--gf-shadow-sm); }
 .sl-markdown-content figure { margin-inline: 0; }
+/* portrait photos: cap the height and centre; wide screenshots still fill the column */
+.sl-markdown-content figure img {
+  display: block;
+  max-width: 100%;
+  max-height: 560px;
+  width: auto;
+  margin-inline: auto;
+}
 .sl-markdown-content figcaption { font-size: var(--sl-text-sm); color: var(--gf-muted); text-align: center; margin-top: 0.4rem; }
 .mermaid, .sl-markdown-content .mermaid {
   display: flex;

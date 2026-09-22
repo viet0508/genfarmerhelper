@@ -43,6 +43,8 @@ graph TB
 
 ### 端末ごとにプロキシを割り当て、Isolate Mode をオンにする
 
+<figure><img src="/images/sc-genrouter.jpg" alt="GenRouter パネル" loading="lazy" /><figcaption>192.168.5.1:9000 の GenRouter パネル: 端末ごとに専用プロキシを割り当て、Isolate Mode をオンにします。</figcaption></figure>
+
 GenRouter の管理画面 `192.168.5.1:9000` を開き、端末ごとにプロキシを割り当てて、**Isolate Mode** をオンにします。
 
 :::note
@@ -70,6 +72,8 @@ APK ファイルをダウンロードし、すべての端末を選択して **I
 :::
 
 ### Account Manager でアカウント表を作成する
+
+<figure><img src="/images/sc-account-manager.jpg" alt="Account Manager" loading="lazy" /><figcaption>Account Manager: 1行に1アカウント、各行に正しい端末を割り当てます。</figcaption></figure>
 
 上の手順で1〜2個のアカウントが問題なかった場合のみ行います。_HDSD p.10–11_
 

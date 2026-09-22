@@ -9,6 +9,8 @@ description: "Capa 1. Uso básico de GenFarmer Software para entender cómo func
 >
 > Día 1: uso básico de la app GenFarmer Software para entender cómo funciona el programa.
 
+<figure><img src="/images/11-a4-dan-boxphone.jpg" alt="Batería de boxphones GenFarmer" loading="lazy" /><figcaption>Una batería de boxphones real. Al final del Día 1 la controlas toda desde un PC.</figcaption></figure>
+
 **Descargar el software → Configurar box + router → Uso manual básico del software**
 
 ## Pasos
@@ -55,6 +57,8 @@ El HDSD tiene tres diagramas de conexión seguidos. Elige el diagrama según la 
 :::
 
 ### Uso manual básico de GenFarmer Software
+
+<figure><img src="/images/12-a4-control-center.jpg" alt="Pantalla Control Center" loading="lazy" /><figcaption>El Control Center: aquí aparecen los 20 teléfonos. Pulsa Scan para buscarlos y Active para activarlos.</figcaption></figure>
 
 Sección **Control Center**. _HDSD pág. 4–7_
 

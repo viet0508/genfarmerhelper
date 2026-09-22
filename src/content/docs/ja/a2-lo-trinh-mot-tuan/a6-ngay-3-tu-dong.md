@@ -33,17 +33,23 @@ description: "レイヤー4。今日は新しい機能を学ぶのではなく�
 
 ### 使用するプラットフォームの自動化パッケージをダウンロードする
 
+<figure><img src="/images/sc-store.jpg" alt="Mini-App Store" loading="lazy" /><figcaption>Mini-App Store: 使用するプラットフォームの自動化パッケージを選んでダウンロードします。</figcaption></figure>
+
 **Store** を開き、検索してダウンロードします。操作説明ビデオもあります — [GenFarmer ビデオのプレイリスト](https://www.youtube.com/watch?v=dWUFV9oCnL0\&list=PLDKj59ZxjjPzvYAxEBUXjYxkUAG624lBu\&index=10)を参照してください。_HDSD p.18–20 · 52–55 · 80–83_
 
 ### プラットフォームの3つのツールをダウンロードする
 
 **Auto Login**、**Trust**、**Boost** の3つです。_HDSD p.21–24 · 56–59 · 84–88_
 
+<figure><img src="/images/13-a6-hop-genfarmer-trust.jpg" alt="GenFarmer Trust の箱" loading="lazy" /><figcaption>GenFarmer Trust — アカウント育成パッケージ。Day 3 の終わりに5アカウントで Trust をオンにします。</figcaption></figure>
+
 ### Account Manager の画面を開く
 
 どのアカウントでどのスクリプトを実行するかを選ぶ場所です。2日目にはアカウントを登録するためにこの画面を使いましたが、今日は**指示を出す**ために使います。
 
 ### 既存の5個のアカウントだけで Auto Login を実行する
+
+<figure><img src="/images/sc-automation-tools.jpg" alt="Setup Automation" loading="lazy" /><figcaption>Setup Automation: 既存の5アカウントだけを選び、Auto Login を実行します。</figcaption></figure>
 
 まだ拡張しません。
 
@@ -52,6 +58,8 @@ description: "レイヤー4。今日は新しい機能を学ぶのではなく�
 一晩実行したままにします。
 
 ### 翌朝に確認する
+
+<figure><img src="/images/sc-schedules.jpg" alt="Schedules 画面" loading="lazy" /><figcaption>Schedules 画面: 翌朝、昨夜のスケジュールが最後まで実行されたか確認します。</figcaption></figure>
 
 5個すべてが生き残っていれば、20個になるよう買い足し、20台すべてで Auto Login と Trust を実行します。
 

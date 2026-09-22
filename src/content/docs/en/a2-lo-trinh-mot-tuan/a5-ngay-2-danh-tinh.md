@@ -43,6 +43,8 @@ If you want to save money for the trial, 5 accounts spread over 2–3 proxies is
 
 ### Assign a proxy to each phone and turn on Isolate Mode
 
+<figure><img src="/images/sc-genrouter.jpg" alt="GenRouter panel" loading="lazy" /><figcaption>The GenRouter panel at 192.168.5.1:9000: give each phone its own proxy, then turn on Isolate Mode.</figcaption></figure>
+
 Open the GenRouter control panel at `192.168.5.1:9000`, assign a proxy to each phone, and turn on **Isolate Mode**.
 
 :::note
@@ -70,6 +72,8 @@ This is the most important step of the whole week: the automation later only rep
 :::
 
 ### Create an account sheet in Account Manager
+
+<figure><img src="/images/sc-account-manager.jpg" alt="Account Manager" loading="lazy" /><figcaption>Account Manager: one row per account, with the right device assigned to each row.</figcaption></figure>
 
 Only do this once the 1–2 accounts from the previous step are stable. _HDSD p. 10–11_
 

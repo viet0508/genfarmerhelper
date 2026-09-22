@@ -5,6 +5,8 @@ description: "Dành cho lần đọc thứ hai — tra theo thứ đang thấy t
 
 Lần đầu bạn đọc tài liệu theo thứ tự. Từ lần thứ hai trở đi bạn sẽ tra theo thứ mình đang nhìn thấy trên màn hình. Bảng này dành cho lần thứ hai.
 
+<figure><img src="/images/15-tra-cuu-giao-dien-phan-mem.jpg" alt="Màn hình Device" loading="lazy" /><figcaption>Màn hình Device của phần mềm. Tra theo đúng thứ bạn đang nhìn thấy ở đây.</figcaption></figure>
+
 | Triệu chứng                                     | Lớp           | Mở ở đâu / làm gì                                                                                                                                                                                                                                                                      |
 | ----------------------------------------------- | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Bấm **Scan** không ra máy nào                   | 1 · MÁY       | _HDSD tr. 4–8_ — kiểm tra hai dải địa chỉ và nút **Active** ([A4 · bước 3](/vi/a2-lo-trinh-mot-tuan/a4-ngay-1-phan-cung))                                                                                                                                                                  |

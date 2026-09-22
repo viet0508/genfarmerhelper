@@ -9,6 +9,8 @@ description: "Lớp 1. Sử dụng cơ bản GenFarmer Software để cảm nh�
 >
 > Ngày 1: sử dụng cơ bản app GenFarmer Software để cảm nhận cách hoạt động của phần mềm.
 
+<figure><img src="/images/11-a4-dan-boxphone.jpg" alt="Dàn boxphone GenFarmer" loading="lazy" /><figcaption>Dàn boxphone thật. Hết Ngày 1, bạn điều khiển được cả dàn này từ một máy tính.</figcaption></figure>
+
 **Tải phần mềm → Set up box + router → Sử dụng software thủ công cơ bản**
 
 ## Các bước
@@ -55,6 +57,8 @@ HDSD có ba sơ đồ đấu nối nằm liền nhau. Chọn sơ đồ theo bả
 :::
 
 ### Sử dụng GenFarmer Software cơ bản thủ công
+
+<figure><img src="/images/12-a4-control-center.jpg" alt="Màn hình Control Center" loading="lazy" /><figcaption>Màn hình Control Center: thấy cả 20 máy ở đây. Bấm Scan để tìm máy, Active để kích hoạt.</figcaption></figure>
 
 Mục **Control Center**. _HDSD tr. 4–7_
 

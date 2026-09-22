@@ -5,6 +5,8 @@ description: "Các từ xuất hiện trong giáo trình và HDSD, giải thích
 
 Gặp từ nào chưa rõ trong lúc đọc, tra ở đây rồi quay lại trang đang đọc. Xếp theo bốn lớp của hệ thống — xem [A1 · Bốn lớp hệ thống](/vi/a1-bon-lop-he-thong).
 
+<figure><img src="/images/16-thuat-ngu-dien-thoai.jpg" alt="Boxphone và các bộ phận" loading="lazy" /><figcaption>Boxphone và các bộ phận được nhắc tới trong thuật ngữ.</figcaption></figure>
+
 ## Lớp 1 · Máy
 
 | Thuật ngữ              | Nghĩa                                                                                                                              | Gặp ở  |

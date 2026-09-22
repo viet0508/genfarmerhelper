@@ -33,17 +33,23 @@ The platform app was installed on [Day 2 · step 3](/en/a2-lo-trinh-mot-tuan/a5-
 
 ### Download the automation package for your platform
 
+<figure><img src="/images/sc-store.jpg" alt="Mini-App Store" loading="lazy" /><figcaption>Mini-App Store: pick the automation package for your platform and download it.</figcaption></figure>
+
 Go to the **Store**, find it and download it. A video guide is included — see the [GenFarmer video playlist](https://www.youtube.com/watch?v=dWUFV9oCnL0\&list=PLDKj59ZxjjPzvYAxEBUXjYxkUAG624lBu\&index=10). _HDSD p. 18–20 · 52–55 · 80–83_
 
 ### Download the platform's three tools
 
 **Auto Login**, **Trust** and **Boost**. _HDSD p. 21–24 · 56–59 · 84–88_
 
+<figure><img src="/images/13-a6-hop-genfarmer-trust.jpg" alt="GenFarmer Trust box" loading="lazy" /><figcaption>GenFarmer Trust — the account warm-up package. At the end of Day 3 you turn on Trust for the 5 accounts.</figcaption></figure>
+
 ### Open the Account Manager screen
 
 This is where you choose which account runs which script. On Day 2 you used this screen to store accounts; today you use it to **give orders**.
 
 ### Run Auto Login on exactly the 5 accounts you already have
+
+<figure><img src="/images/sc-automation-tools.jpg" alt="Setup Automation" loading="lazy" /><figcaption>Setup Automation: select exactly the 5 accounts you already have, then run Auto Login.</figcaption></figure>
 
 Do not scale up yet.
 
@@ -52,6 +58,8 @@ Do not scale up yet.
 Let it run overnight.
 
 ### Check the next morning
+
+<figure><img src="/images/sc-schedules.jpg" alt="Schedules screen" loading="lazy" /><figcaption>The Schedules screen: next morning, check that last night's schedules ran to completion.</figcaption></figure>
 
 If all 5 are still alive, buy more to reach 20, then run Auto Login and Trust on all 20 phones.
 

@@ -5,6 +5,8 @@ description: "このコースとユーザーマニュアル（HDSD）に登場�
 
 読んでいる途中で分からない用語があったら、ここで調べてから元のページに戻ってください。システムの4つのレイヤーごとに並べています — [A1 · システムの4つのレイヤー](/ja/a1-bon-lop-he-thong)を参照してください。
 
+<figure><img src="/images/16-thuat-ngu-dien-thoai.jpg" alt="Boxphone とその部品" loading="lazy" /><figcaption>用語集で言及される boxphone と各部品。</figcaption></figure>
+
 ## レイヤー1 · 端末
 
 | 用語                     | 意味                                                                                                            | 登場するページ |

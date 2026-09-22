@@ -9,6 +9,8 @@ Làm trước khi hàng về tới nơi. Ba ngày đầu là ba ngày hào hứn
 >
 > Chưa cần cắm điện. Chỉ cần có đủ các mục dưới đây trước khi bắt đầu Ngày 1.
 
+<figure><img src="/images/09-a3-tu-boxphone.jpg" alt="Tủ boxphone GenFarmer" loading="lazy" /><figcaption>Tủ boxphone thật. Đặt nơi thoáng, cách tường khoảng 10 cm, cắm ổ điện riêng.</figcaption></figure>
+
 **Chỗ đặt box + điện riêng → Mạng dây + máy tính điều khiển → Mua sẵn tài khoản + proxy thử → Quay video mở hộp**
 
 ## Chuẩn bị
@@ -32,6 +34,8 @@ Làm trước khi hàng về tới nơi. Ba ngày đầu là ba ngày hào hứn
 :::caution
 Trong HDSD (_tr. 30–39_), phần API key vẫn ghi là **"Apple Key"** / Gemini — đó là bản cũ. Hiện hệ thống dùng **API của vilao.ai**; bạn làm theo hướng dẫn ở trang này.
 :::
+
+<figure><img src="/images/10-a3-mini-pc.jpg" alt="Mini PC GenRouter" loading="lazy" /><figcaption>Mini PC GenRouter. Nếu dùng mini PC, bắt buộc nối máy tính bằng dây LAN.</figcaption></figure>
 
 ## Xong khi
 

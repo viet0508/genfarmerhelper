@@ -22,8 +22,9 @@ export default defineConfig({
         ja: 'GenFarmer サポート',
       },
       logo: {
-        src: './src/assets/genfarmer-logo.png',
+        src: './src/assets/genfarmer-lockup.png',
         alt: 'GenFarmer',
+        replacesTitle: true,
       },
       favicon: '/favicon.svg',
       customCss: ['./src/styles/custom.css'],
@@ -40,6 +41,7 @@ export default defineConfig({
       ],
       components: {
         PageFrame: './src/components/PageFrame.astro',
+        Sidebar: './src/components/Sidebar.astro',
       },
       defaultLocale: 'en',
       locales: {

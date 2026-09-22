@@ -7,25 +7,25 @@ description: "最初にこのページを読んでください。トラブルが
 
 #### レイヤー1 · Boxphone
 
-![レイヤー1 · Boxphone](/images/layer1-boxphone.jpg)
+![レイヤー1 · Boxphone](/images/05-a1-lop1-boxphone.jpg)
 
 GenFarmer から購入したハードウェアです。
 
 #### レイヤー2 · ルーター
 
-![レイヤー2 · ルーター](/images/layer2-genrouter.jpg)
+![レイヤー2 · ルーター](/images/06-a1-lop2-genrouter-h3000.jpg)
 
 GenRouter は各端末に専用のインターネット回線を割り当て、共有させません。GenRouter H3000 は Box 1台用で、Box 2台以上の場合はミニPCを使います。
 
 #### レイヤー3 · アカウント + プロキシ
 
-![レイヤー3 · アカウント + プロキシ](/images/layer3-account-proxy.jpg)
+![レイヤー3 · アカウント + プロキシ](/images/07-a1-lop3-router-va-minipc.jpg)
 
 スマホファームを稼働させるために、ご自身で準備が必要なものです。
 
 #### レイヤー4 · 自動化
 
-![レイヤー4 · 自動化](/images/layer4-automation.jpg)
+![レイヤー4 · 自動化](/images/08-a1-lop4-automation.jpg)
 
 ログイン、アカウントの育成、エンゲージメントの拡散を自動化するスクリプトで、GenFarmer が自動化パッケージとして用意しています。未購入の場合は、WhatsApp [+84 97 123 46 01](https://wa.me/84971234601) または[ユーザーコミュニティ](https://chat.whatsapp.com/J8bchy0IIwREeAI1z7Jmvo?mode=gi_t)から GenFarmer のセールス担当にご連絡ください。自動化を使わず、手動で行うこともできます。
 

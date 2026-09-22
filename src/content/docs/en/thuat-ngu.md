@@ -5,6 +5,8 @@ description: "Terms that appear in the course and the HDSD, explained briefly th
 
 When you meet a term you do not know while reading, look it up here and then go back to the page you were on. Organized by the four layers of the system — see [A1 · The four layers of the system](/en/a1-bon-lop-he-thong).
 
+<figure><img src="/images/16-thuat-ngu-dien-thoai.jpg" alt="Boxphone and its parts" loading="lazy" /><figcaption>The boxphone and the parts referred to in the glossary.</figcaption></figure>
+
 ## Layer 1 · Device
 
 | Term                   | Meaning                                                                                                                                                                | Found in |

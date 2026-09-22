@@ -5,6 +5,8 @@ description: "For your second read — look things up by what you are seeing on 
 
 The first time, you read the documentation in order. From the second time on, you look things up by what you are seeing on screen. This table is for that second time.
 
+<figure><img src="/images/15-tra-cuu-giao-dien-phan-mem.jpg" alt="Device screen" loading="lazy" /><figcaption>The software's Device screen. Look things up by exactly what you see here.</figcaption></figure>
+
 | Symptom                                      | Layer        | Where to look / what to do                                                                                                                                                                                                                                                                                    |
 | -------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Scan** finds no phones                     | 1 · DEVICE   | _User Manual (HDSD) p. 4–8_ — check the two address ranges and the **Active** button ([A4 · step 3](/en/a2-lo-trinh-mot-tuan/a4-ngay-1-phan-cung))                                                                                                                                                                |

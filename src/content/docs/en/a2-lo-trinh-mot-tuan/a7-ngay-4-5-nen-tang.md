@@ -23,6 +23,8 @@ From here on, everyone goes their own way. You **do not need to read all 141 pag
 >
 > These two days are for becoming fluent, not for learning new concepts.
 
+<figure><img src="/images/14-a7-logo-nen-tang.jpg" alt="Four platform logos" loading="lazy" /><figcaption>The four platforms with their own chapter in the manual. Read only the chapter for the platform you use.</figcaption></figure>
+
 **Read your platform chapter → Configure for your content niche → Run a test script → Learn the signs that mean stop**
 
 ## Steps

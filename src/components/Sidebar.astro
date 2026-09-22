@@ -1,0 +1,20 @@
+---
+// Starlight Sidebar override: default sidebar plus the wolf mark and an
+// edition line pinned to the bottom, as in the team's mockup.
+import Default from '@astrojs/starlight/components/Sidebar.astro';
+
+const edition = {
+	vi: 'Phần A · bản 1.0 · 09/2026',
+	en: 'Part A · v1.0 · 09/2026',
+	es: 'Parte A · v1.0 · 09/2026',
+	ja: 'パートA · v1.0 · 2026/09',
+};
+const lang = (Astro.currentLocale ?? 'en') as keyof typeof edition;
+---
+
+<Default><slot /></Default>
+
+<div class="gf-sidebar-foot">
+	<img src="/images/02-mark-soi-genfarmer.png" alt="" width="40" height="51" loading="lazy" decoding="async" />
+	<span>{edition[lang] ?? edition.en}</span>
+</div>

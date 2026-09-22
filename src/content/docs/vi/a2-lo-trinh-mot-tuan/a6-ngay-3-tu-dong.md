@@ -33,17 +33,23 @@ Bật **Boost** trên tài khoản chưa nuôi là cách mất tài khoản nhan
 
 ### Tải gói tự động của nền tảng bạn dùng
 
+<figure><img src="/images/sc-store.jpg" alt="Mini-App Store" loading="lazy" /><figcaption>Mini-App Store: chọn gói tự động đúng nền tảng bạn dùng rồi bấm tải.</figcaption></figure>
+
 Vào **Store**, tìm và tải. Có video hướng dẫn kèm theo — xem [playlist video GenFarmer](https://www.youtube.com/watch?v=dWUFV9oCnL0\&list=PLDKj59ZxjjPzvYAxEBUXjYxkUAG624lBu\&index=10). _HDSD tr. 18–20 · 52–55 · 80–83_
 
 ### Tải ba công cụ của nền tảng
 
 **Auto Login**, **Trust** và **Boost**. _HDSD tr. 21–24 · 56–59 · 84–88_
 
+<figure><img src="/images/13-a6-hop-genfarmer-trust.jpg" alt="Hộp GenFarmer Trust" loading="lazy" /><figcaption>GenFarmer Trust — gói nuôi tài khoản. Cuối Ngày 3 bạn bật Trust cho 5 tài khoản.</figcaption></figure>
+
 ### Mở màn hình Account Manager
 
 Đây là nơi bạn chọn tài khoản nào chạy kịch bản nào. Ngày 2 bạn đã dùng màn này để chứa tài khoản; hôm nay bạn dùng nó để **ra lệnh**.
 
 ### Chạy Auto Login trên đúng 5 tài khoản đã có
+
+<figure><img src="/images/sc-automation-tools.jpg" alt="Setup Automation" loading="lazy" /><figcaption>Setup Automation: chọn đúng 5 tài khoản đã có rồi chạy Auto Login.</figcaption></figure>
 
 Chưa mở rộng.
 
@@ -52,6 +58,8 @@ Chưa mở rộng.
 Để chạy qua đêm.
 
 ### Sáng hôm sau kiểm tra
+
+<figure><img src="/images/sc-schedules.jpg" alt="Màn hình Schedules" loading="lazy" /><figcaption>Màn hình Schedules: sáng hôm sau xem lịch đêm qua đã chạy hết chưa.</figcaption></figure>
 
 Nếu cả 5 còn sống thì mua thêm cho đủ 20, chạy Auto Login và Trust cho toàn bộ 20 máy.
 

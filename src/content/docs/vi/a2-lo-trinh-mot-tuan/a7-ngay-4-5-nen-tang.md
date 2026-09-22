@@ -23,6 +23,8 @@ Từ đây trở đi mỗi người đi một hướng khác nhau. Bạn **khôn
 >
 > Hai ngày này là để thành thục, không phải để học thêm khái niệm mới.
 
+<figure><img src="/images/14-a7-logo-nen-tang.jpg" alt="Logo bốn nền tảng" loading="lazy" /><figcaption>Bốn nền tảng có chương riêng trong HDSD. Chỉ đọc chương của nền tảng bạn dùng.</figcaption></figure>
+
 **Đọc chương nền tảng → Cấu hình đúng lĩnh vực → Chạy thử kịch bản → Nhận biết dấu hiệu cần dừng**
 
 ## Các bước

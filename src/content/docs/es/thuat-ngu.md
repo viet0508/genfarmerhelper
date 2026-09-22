@@ -5,6 +5,8 @@ description: "Los términos que aparecen en el curso y en el Manual de usuario (
 
 Si encuentras un término que no entiendes mientras lees, búscalo aquí y vuelve a la página en la que estabas. Está organizado según las cuatro capas del sistema — consulta [A1 · Las cuatro capas del sistema](/es/a1-bon-lop-he-thong).
 
+<figure><img src="/images/16-thuat-ngu-dien-thoai.jpg" alt="Boxphone y sus partes" loading="lazy" /><figcaption>El boxphone y las partes mencionadas en el glosario.</figcaption></figure>
+
 ## Capa 1 · Equipo
 
 | Término                  | Significado                                                                                                                                                                       | Aparece en |
